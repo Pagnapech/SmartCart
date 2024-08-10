@@ -34,3 +34,5 @@ Team of 5 people:
   - Kaavian Murugadass
 
 Primary Advisor: Professor Hyoukjun Kwon
+
+Detailed of the process is in Documentation File
