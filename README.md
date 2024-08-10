@@ -35,4 +35,4 @@ Team of 5 people:
 
 Primary Advisor: Professor Hyoukjun Kwon
 
-Detailed of the process is in Documentation File
+Detailed of the process is in SmartCartFinalReport_EECS159AB.pdf
