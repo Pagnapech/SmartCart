@@ -1,0 +1,53 @@
+running develop
+Removing /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart-controller.egg-link (link to .)
+running egg_info
+writing ../../build/smartcart_controller/smartcart_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/smartcart_controller/smartcart_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/smartcart_controller/smartcart_controller.egg-info/entry_points.txt
+writing requirements to ../../build/smartcart_controller/smartcart_controller.egg-info/requires.txt
+writing top-level names to ../../build/smartcart_controller/smartcart_controller.egg-info/top_level.txt
+reading manifest file '../../build/smartcart_controller/smartcart_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/smartcart_controller/smartcart_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+copying smartcart_controller/motor_subscriber.py -> /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller
+running install
+running install_lib
+creating /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller
+copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/framerate.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller
+copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/webcam.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller
+copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/interpreter.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller
+copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/tracker.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller
+copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/motor_controller_subscriber.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller
+copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/basic_image_subscriber.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller
+copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/videostream.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller
+copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/__init__.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller
+copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/motor_controller.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller
+copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/my_first_node.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller
+copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/img_publisher_test.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller
+copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/utilities.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller
+copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/motor_subscriber.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller
+copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/tensor_image_publisher.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller
+byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/framerate.py to framerate.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/webcam.py to webcam.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/interpreter.py to interpreter.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/tracker.py to tracker.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/motor_controller_subscriber.py to motor_controller_subscriber.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/basic_image_subscriber.py to basic_image_subscriber.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/videostream.py to videostream.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/motor_controller.py to motor_controller.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/my_first_node.py to my_first_node.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/img_publisher_test.py to img_publisher_test.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/utilities.py to utilities.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/motor_subscriber.py to motor_subscriber.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/tensor_image_publisher.py to tensor_image_publisher.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../build/smartcart_controller/smartcart_controller.egg-info to /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing img_subscriber script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller
+Installing motor_subscriber script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller
+Installing tensor_img_publisher script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller
+Installing test_node script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller
+writing list of installed files to '/home/ed/ros2_ws/build/smartcart_controller/install.log'

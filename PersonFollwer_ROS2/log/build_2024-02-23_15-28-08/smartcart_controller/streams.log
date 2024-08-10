@@ -1,0 +1,20 @@
+[6.374s] Invoking command in '/home/ed/ros2_ws/build/smartcart_controller': PYTHONPATH=/home/ed/ros2_ws/build/smartcart_controller/prefix_override:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ed/ros2_ws/build/smartcart_controller/build --no-deps install_data
+[7.999s] running develop
+[9.104s] running egg_info
+[9.108s] writing smartcart_controller.egg-info/PKG-INFO
+[9.111s] writing dependency_links to smartcart_controller.egg-info/dependency_links.txt
+[9.114s] writing entry points to smartcart_controller.egg-info/entry_points.txt
+[9.116s] writing requirements to smartcart_controller.egg-info/requires.txt
+[9.131s] writing top-level names to smartcart_controller.egg-info/top_level.txt
+[9.135s] reading manifest file 'smartcart_controller.egg-info/SOURCES.txt'
+[9.144s] writing manifest file 'smartcart_controller.egg-info/SOURCES.txt'
+[9.170s] running build_ext
+[9.175s] Creating /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart-controller.egg-link (link to .)
+[9.198s] Installing img_subscriber script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller
+[9.203s] Installing motor_subscriber script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller
+[9.207s] Installing tensor_img_publisher script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller
+[9.213s] Installing test_node script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller
+[9.219s] 
+[9.222s] Installed /home/ed/ros2_ws/build/smartcart_controller
+[9.226s] running install_data
+[10.074s] Invoked command in '/home/ed/ros2_ws/build/smartcart_controller' returned '0': PYTHONPATH=/home/ed/ros2_ws/build/smartcart_controller/prefix_override:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ed/ros2_ws/build/smartcart_controller/build --no-deps install_data

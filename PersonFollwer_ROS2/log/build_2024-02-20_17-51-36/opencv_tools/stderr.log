@@ -1,0 +1,5 @@
+  File "/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/motor_controller.py", line 4
+    MAXPWM = 
+             ^
+SyntaxError: invalid syntax
+

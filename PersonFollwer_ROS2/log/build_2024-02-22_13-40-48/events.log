@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.002886] (opencv_tools) JobQueued: {'identifier': 'opencv_tools', 'dependencies': OrderedDict()}
+[0.003063] (smartcart_controller) JobQueued: {'identifier': 'smartcart_controller', 'dependencies': OrderedDict()}
+[0.003208] (opencv_tools) JobStarted: {'identifier': 'opencv_tools'}
+[0.098641] (-) TimerEvent: {}
+[0.199615] (-) TimerEvent: {}
+[0.301170] (-) TimerEvent: {}
+[0.402365] (-) TimerEvent: {}
+[0.503716] (-) TimerEvent: {}
+[0.604823] (-) TimerEvent: {}
+[0.706210] (-) TimerEvent: {}
+[0.807216] (-) TimerEvent: {}
+[0.851099] (smartcart_controller) JobStarted: {'identifier': 'smartcart_controller'}
+[0.907594] (-) TimerEvent: {}
+[1.009395] (-) TimerEvent: {}
+[1.110573] (-) TimerEvent: {}
+[1.211618] (-) TimerEvent: {}
+[1.314947] (-) TimerEvent: {}
+[1.416043] (-) TimerEvent: {}
+[1.517181] (-) TimerEvent: {}
+[1.618085] (-) TimerEvent: {}
+[1.719834] (-) TimerEvent: {}
+[1.820580] (-) TimerEvent: {}
+[1.921446] (-) TimerEvent: {}
+[2.022285] (-) TimerEvent: {}
+[2.123158] (-) TimerEvent: {}
+[2.223947] (-) TimerEvent: {}
+[2.324644] (-) TimerEvent: {}
+[2.425454] (-) TimerEvent: {}
+[2.526295] (-) TimerEvent: {}
+[2.627113] (-) TimerEvent: {}
+[2.727942] (-) TimerEvent: {}
+[2.828761] (-) TimerEvent: {}
+[2.929604] (-) TimerEvent: {}
+[3.030740] (-) TimerEvent: {}
+[3.131688] (-) TimerEvent: {}
+[3.232679] (-) TimerEvent: {}
+[3.334185] (-) TimerEvent: {}
+[3.435514] (-) TimerEvent: {}
+[3.536318] (-) TimerEvent: {}
+[3.637120] (-) TimerEvent: {}
+[3.737919] (-) TimerEvent: {}
+[3.838880] (-) TimerEvent: {}
+[3.941080] (-) TimerEvent: {}
+[4.042756] (-) TimerEvent: {}
+[4.143981] (-) TimerEvent: {}
+[4.245151] (-) TimerEvent: {}
+[4.346010] (-) TimerEvent: {}
+[4.446694] (-) TimerEvent: {}
+[4.547339] (-) TimerEvent: {}
+[4.648328] (-) TimerEvent: {}
+[4.749766] (-) TimerEvent: {}
+[4.851079] (-) TimerEvent: {}
+[4.952501] (-) TimerEvent: {}
+[5.054009] (-) TimerEvent: {}
+[5.155304] (-) TimerEvent: {}
+[5.256591] (-) TimerEvent: {}
+[5.357766] (-) TimerEvent: {}
+[5.458458] (-) TimerEvent: {}
+[5.559132] (-) TimerEvent: {}
+[5.659921] (-) TimerEvent: {}
+[5.760608] (-) TimerEvent: {}
+[5.861318] (-) TimerEvent: {}
+[5.962067] (-) TimerEvent: {}
+[6.062896] (-) TimerEvent: {}
+[6.163736] (-) TimerEvent: {}
+[6.264735] (-) TimerEvent: {}
+[6.366265] (-) TimerEvent: {}
+[6.467130] (-) TimerEvent: {}
+[6.568069] (-) TimerEvent: {}
+[6.668983] (-) TimerEvent: {}
+[6.770030] (-) TimerEvent: {}
+[6.867937] (smartcart_controller) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 288, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[6.872223] (-) TimerEvent: {}
+[6.872704] (smartcart_controller) JobEnded: {'identifier': 'smartcart_controller', 'rc': 1}
+[6.874856] (opencv_tools) JobEnded: {'identifier': 'opencv_tools', 'rc': 'SIGINT'}
+[6.882592] (-) EventReactorShutdown: {}

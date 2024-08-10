@@ -1,0 +1,29 @@
+[14.749s] Invoking command in '/home/ed/ros2_ws/src/opencv_tools': PYTHONPATH=/home/ed/ros2_ws/src/build/opencv_tools/prefix_override:/home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/opencv_tools build --build-base /home/ed/ros2_ws/src/build/opencv_tools/build install --record /home/ed/ros2_ws/src/build/opencv_tools/install.log --single-version-externally-managed
+[18.139s] running egg_info
+[18.143s] writing ../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+[18.148s] writing dependency_links to ../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+[18.151s] writing entry points to ../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+[18.163s] writing requirements to ../build/opencv_tools/opencv_tools.egg-info/requires.txt
+[18.164s] writing top-level names to ../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+[18.191s] reading manifest file '../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[18.202s] writing manifest file '../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[18.213s] running build
+[18.215s] running build_py
+[18.231s] copying opencv_tools/motor_controller.py -> /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools
+[18.234s] copying opencv_tools/tensor_image_publisher.py -> /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools
+[18.237s] running install
+[18.243s] running install_lib
+[18.258s] copying /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools/motor_controller.py -> /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+[18.261s] copying /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools/tensor_image_publisher.py -> /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+[18.268s] byte-compiling /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/motor_controller.py to motor_controller.cpython-310.pyc
+[18.276s] byte-compiling /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/tensor_image_publisher.py to tensor_image_publisher.cpython-310.pyc
+[18.288s] running install_data
+[18.296s] running install_egg_info
+[18.314s] removing '/home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info' (and everything under it)
+[18.316s] Copying ../build/opencv_tools/opencv_tools.egg-info to /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info
+[18.355s] running install_scripts
+[18.581s] Installing img_publisher script to /home/ed/ros2_ws/src/install/opencv_tools/lib/opencv_tools
+[18.590s] Installing img_subscriber script to /home/ed/ros2_ws/src/install/opencv_tools/lib/opencv_tools
+[18.599s] Installing tensor_img_publisher script to /home/ed/ros2_ws/src/install/opencv_tools/lib/opencv_tools
+[18.614s] writing list of installed files to '/home/ed/ros2_ws/src/build/opencv_tools/install.log'
+[19.027s] Invoked command in '/home/ed/ros2_ws/src/opencv_tools' returned '0': PYTHONPATH=/home/ed/ros2_ws/src/build/opencv_tools/prefix_override:/home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/opencv_tools build --build-base /home/ed/ros2_ws/src/build/opencv_tools/build install --record /home/ed/ros2_ws/src/build/opencv_tools/install.log --single-version-externally-managed

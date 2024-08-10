@@ -1,0 +1,399 @@
+[0.000000] (-) TimerEvent: {}
+[0.001418] (opencv_tools) JobQueued: {'identifier': 'opencv_tools', 'dependencies': OrderedDict()}
+[0.002620] (smartcart_controller) JobQueued: {'identifier': 'smartcart_controller', 'dependencies': OrderedDict()}
+[0.002759] (opencv_tools) JobStarted: {'identifier': 'opencv_tools'}
+[0.099125] (-) TimerEvent: {}
+[0.202181] (-) TimerEvent: {}
+[0.306483] (-) TimerEvent: {}
+[0.409479] (-) TimerEvent: {}
+[0.522783] (-) TimerEvent: {}
+[0.626860] (-) TimerEvent: {}
+[0.728018] (-) TimerEvent: {}
+[0.830168] (-) TimerEvent: {}
+[0.933100] (-) TimerEvent: {}
+[1.039008] (-) TimerEvent: {}
+[1.141636] (-) TimerEvent: {}
+[1.243722] (-) TimerEvent: {}
+[1.348682] (-) TimerEvent: {}
+[1.450913] (-) TimerEvent: {}
+[1.555347] (-) TimerEvent: {}
+[1.657242] (-) TimerEvent: {}
+[1.759432] (-) TimerEvent: {}
+[1.862582] (-) TimerEvent: {}
+[1.965106] (-) TimerEvent: {}
+[2.066700] (-) TimerEvent: {}
+[2.169262] (-) TimerEvent: {}
+[2.273634] (-) TimerEvent: {}
+[2.355502] (smartcart_controller) JobStarted: {'identifier': 'smartcart_controller'}
+[2.374018] (-) TimerEvent: {}
+[2.476189] (-) TimerEvent: {}
+[2.578899] (-) TimerEvent: {}
+[2.682134] (-) TimerEvent: {}
+[2.784318] (-) TimerEvent: {}
+[2.886993] (-) TimerEvent: {}
+[2.989630] (-) TimerEvent: {}
+[3.091489] (-) TimerEvent: {}
+[3.193711] (-) TimerEvent: {}
+[3.295908] (-) TimerEvent: {}
+[3.397837] (-) TimerEvent: {}
+[3.502612] (-) TimerEvent: {}
+[3.605013] (-) TimerEvent: {}
+[3.707143] (-) TimerEvent: {}
+[3.810167] (-) TimerEvent: {}
+[3.913141] (-) TimerEvent: {}
+[4.015601] (-) TimerEvent: {}
+[4.118763] (-) TimerEvent: {}
+[4.221362] (-) TimerEvent: {}
+[4.324839] (-) TimerEvent: {}
+[4.427507] (-) TimerEvent: {}
+[4.529757] (-) TimerEvent: {}
+[4.631245] (-) TimerEvent: {}
+[4.732980] (-) TimerEvent: {}
+[4.836790] (-) TimerEvent: {}
+[4.940122] (-) TimerEvent: {}
+[5.043171] (-) TimerEvent: {}
+[5.145322] (-) TimerEvent: {}
+[5.246574] (-) TimerEvent: {}
+[5.347762] (-) TimerEvent: {}
+[5.449842] (-) TimerEvent: {}
+[5.551180] (-) TimerEvent: {}
+[5.653408] (-) TimerEvent: {}
+[5.754596] (-) TimerEvent: {}
+[5.856244] (-) TimerEvent: {}
+[5.957723] (-) TimerEvent: {}
+[6.059554] (-) TimerEvent: {}
+[6.160975] (-) TimerEvent: {}
+[6.261770] (-) TimerEvent: {}
+[6.362604] (-) TimerEvent: {}
+[6.464314] (-) TimerEvent: {}
+[6.566286] (-) TimerEvent: {}
+[6.668230] (-) TimerEvent: {}
+[6.769937] (-) TimerEvent: {}
+[6.871401] (-) TimerEvent: {}
+[6.972099] (-) TimerEvent: {}
+[7.073114] (-) TimerEvent: {}
+[7.174373] (-) TimerEvent: {}
+[7.275049] (-) TimerEvent: {}
+[7.375733] (-) TimerEvent: {}
+[7.476442] (-) TimerEvent: {}
+[7.577351] (-) TimerEvent: {}
+[7.678099] (-) TimerEvent: {}
+[7.779260] (-) TimerEvent: {}
+[7.880787] (-) TimerEvent: {}
+[7.981696] (-) TimerEvent: {}
+[8.083534] (-) TimerEvent: {}
+[8.184937] (-) TimerEvent: {}
+[8.286953] (-) TimerEvent: {}
+[8.388414] (-) TimerEvent: {}
+[8.489163] (-) TimerEvent: {}
+[8.590484] (-) TimerEvent: {}
+[8.691318] (-) TimerEvent: {}
+[8.792269] (-) TimerEvent: {}
+[8.893256] (-) TimerEvent: {}
+[8.993958] (-) TimerEvent: {}
+[9.094668] (-) TimerEvent: {}
+[9.195392] (-) TimerEvent: {}
+[9.296160] (-) TimerEvent: {}
+[9.396838] (-) TimerEvent: {}
+[9.497750] (-) TimerEvent: {}
+[9.598406] (-) TimerEvent: {}
+[9.699108] (-) TimerEvent: {}
+[9.799862] (-) TimerEvent: {}
+[9.900508] (-) TimerEvent: {}
+[10.001308] (-) TimerEvent: {}
+[10.102394] (-) TimerEvent: {}
+[10.203066] (-) TimerEvent: {}
+[10.303776] (-) TimerEvent: {}
+[10.404472] (-) TimerEvent: {}
+[10.505321] (-) TimerEvent: {}
+[10.606545] (-) TimerEvent: {}
+[10.708569] (-) TimerEvent: {}
+[10.809744] (-) TimerEvent: {}
+[10.911115] (-) TimerEvent: {}
+[11.012639] (-) TimerEvent: {}
+[11.113964] (-) TimerEvent: {}
+[11.215415] (-) TimerEvent: {}
+[11.316555] (-) TimerEvent: {}
+[11.417636] (-) TimerEvent: {}
+[11.518569] (-) TimerEvent: {}
+[11.619315] (-) TimerEvent: {}
+[11.720114] (-) TimerEvent: {}
+[11.820945] (-) TimerEvent: {}
+[11.922600] (-) TimerEvent: {}
+[12.023903] (-) TimerEvent: {}
+[12.128777] (-) TimerEvent: {}
+[12.230433] (-) TimerEvent: {}
+[12.335731] (-) TimerEvent: {}
+[12.439389] (-) TimerEvent: {}
+[12.540996] (-) TimerEvent: {}
+[12.645500] (-) TimerEvent: {}
+[12.746953] (-) TimerEvent: {}
+[12.847931] (-) TimerEvent: {}
+[12.949093] (-) TimerEvent: {}
+[13.050468] (-) TimerEvent: {}
+[13.152497] (-) TimerEvent: {}
+[13.258354] (-) TimerEvent: {}
+[13.359862] (-) TimerEvent: {}
+[13.462324] (-) TimerEvent: {}
+[13.563122] (-) TimerEvent: {}
+[13.663861] (-) TimerEvent: {}
+[13.764694] (-) TimerEvent: {}
+[13.865515] (-) TimerEvent: {}
+[13.966561] (-) TimerEvent: {}
+[14.067339] (-) TimerEvent: {}
+[14.168301] (-) TimerEvent: {}
+[14.269153] (-) TimerEvent: {}
+[14.370400] (-) TimerEvent: {}
+[14.471226] (-) TimerEvent: {}
+[14.572148] (-) TimerEvent: {}
+[14.672942] (-) TimerEvent: {}
+[14.773760] (-) TimerEvent: {}
+[14.874840] (-) TimerEvent: {}
+[14.982463] (-) TimerEvent: {}
+[15.086604] (-) TimerEvent: {}
+[15.194697] (-) TimerEvent: {}
+[15.258647] (opencv_tools) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/ed/ros2_ws/build/opencv_tools/build'], 'cwd': '/home/ed/ros2_ws/build/opencv_tools', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ed', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ed', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/ed/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.86.2', 'DESKTOP_SESSION': 'ubuntu', 'PYENV_SHELL': 'bash', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1195', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ed/ros2_workspace/install:/home/ed/ros2_ws/install:/home/ed/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ed', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ed', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ed/.pyenv/shims:/home/ed/.pyenv/bin:/opt/ros/humble/bin:/home/ed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ed-desktop:@/tmp/.ICE-unix/1167,unix/ed-desktop:/tmp/.ICE-unix/1167', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/185a356c_3192_407d_b69f_63e2244b850b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1DTDJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d555fdb9ad.sock', 'GNOME_TERMINAL_SERVICE': ':1.115', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ed/ros2_ws/install/smartcart_controller:/home/ed/ros2_ws/install/opencv_tools:/home/ed/ros2_workspace/install/my_py_pkg:/home/ed/ros2_workspace/install/my_cpp_pkg:/home/ed/ros2_ws/src/install/smartcart_controller:/home/ed/ros2_ws/src/install/opencv_tools:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ed/ros2_ws/build/opencv_tools', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYENV_ROOT': '/home/ed/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ed/ros2_ws/build/opencv_tools/prefix_override:/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:/home/ed/ros2_ws/build/smartcart_controller:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/build/opencv_tools:/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:/home/ed/ros2_workspace/build/my_py_pkg:/home/ed/ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages:/home/ed/ros2_ws/src/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ed/ros2_workspace/install/my_cpp_pkg'}, 'shell': False}
+[15.307481] (-) TimerEvent: {}
+[15.412519] (-) TimerEvent: {}
+[15.510089] (smartcart_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/ed/ros2_ws/build/smartcart_controller/build'], 'cwd': '/home/ed/ros2_ws/build/smartcart_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ed', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ed', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/ed/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.86.2', 'DESKTOP_SESSION': 'ubuntu', 'PYENV_SHELL': 'bash', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1195', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ed/ros2_workspace/install:/home/ed/ros2_ws/install:/home/ed/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ed', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ed', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ed/.pyenv/shims:/home/ed/.pyenv/bin:/opt/ros/humble/bin:/home/ed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ed-desktop:@/tmp/.ICE-unix/1167,unix/ed-desktop:/tmp/.ICE-unix/1167', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/185a356c_3192_407d_b69f_63e2244b850b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1DTDJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d555fdb9ad.sock', 'GNOME_TERMINAL_SERVICE': ':1.115', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ed/ros2_ws/install/smartcart_controller:/home/ed/ros2_ws/install/opencv_tools:/home/ed/ros2_workspace/install/my_py_pkg:/home/ed/ros2_workspace/install/my_cpp_pkg:/home/ed/ros2_ws/src/install/smartcart_controller:/home/ed/ros2_ws/src/install/opencv_tools:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ed/ros2_ws/build/smartcart_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYENV_ROOT': '/home/ed/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ed/ros2_ws/build/smartcart_controller/prefix_override:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/build/smartcart_controller:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/build/opencv_tools:/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:/home/ed/ros2_workspace/build/my_py_pkg:/home/ed/ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages:/home/ed/ros2_ws/src/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ed/ros2_workspace/install/my_cpp_pkg'}, 'shell': False}
+[15.528373] (-) TimerEvent: {}
+[15.632085] (-) TimerEvent: {}
+[15.732971] (-) TimerEvent: {}
+[15.833987] (-) TimerEvent: {}
+[15.934953] (-) TimerEvent: {}
+[16.037295] (-) TimerEvent: {}
+[16.139035] (-) TimerEvent: {}
+[16.240911] (-) TimerEvent: {}
+[16.342759] (-) TimerEvent: {}
+[16.446164] (-) TimerEvent: {}
+[16.546932] (-) TimerEvent: {}
+[16.647662] (-) TimerEvent: {}
+[16.748426] (-) TimerEvent: {}
+[16.849307] (-) TimerEvent: {}
+[16.950243] (-) TimerEvent: {}
+[17.050938] (-) TimerEvent: {}
+[17.151652] (-) TimerEvent: {}
+[17.254174] (-) TimerEvent: {}
+[17.355187] (-) TimerEvent: {}
+[17.458479] (-) TimerEvent: {}
+[17.560383] (-) TimerEvent: {}
+[17.669935] (-) TimerEvent: {}
+[17.771884] (-) TimerEvent: {}
+[17.873648] (-) TimerEvent: {}
+[17.977776] (-) TimerEvent: {}
+[18.081372] (-) TimerEvent: {}
+[18.182193] (-) TimerEvent: {}
+[18.288714] (-) TimerEvent: {}
+[18.393925] (-) TimerEvent: {}
+[18.406893] (opencv_tools) StdoutLine: {'line': b'running develop\n'}
+[18.495984] (-) TimerEvent: {}
+[18.601458] (-) TimerEvent: {}
+[18.672961] (smartcart_controller) StdoutLine: {'line': b'running develop\n'}
+[18.703458] (-) TimerEvent: {}
+[18.804834] (-) TimerEvent: {}
+[18.907817] (-) TimerEvent: {}
+[19.014404] (-) TimerEvent: {}
+[19.120668] (-) TimerEvent: {}
+[19.225537] (-) TimerEvent: {}
+[19.331280] (-) TimerEvent: {}
+[19.437348] (-) TimerEvent: {}
+[19.539691] (-) TimerEvent: {}
+[19.641916] (-) TimerEvent: {}
+[19.743341] (-) TimerEvent: {}
+[19.848696] (-) TimerEvent: {}
+[19.957532] (-) TimerEvent: {}
+[20.061128] (-) TimerEvent: {}
+[20.165760] (-) TimerEvent: {}
+[20.270720] (-) TimerEvent: {}
+[20.374148] (-) TimerEvent: {}
+[20.478404] (-) TimerEvent: {}
+[20.581396] (-) TimerEvent: {}
+[20.689575] (-) TimerEvent: {}
+[20.791748] (-) TimerEvent: {}
+[20.896931] (-) TimerEvent: {}
+[21.009987] (-) TimerEvent: {}
+[21.077910] (opencv_tools) StdoutLine: {'line': b'Removing /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv-tools.egg-link (link to .)\n'}
+[21.111709] (-) TimerEvent: {}
+[21.217423] (-) TimerEvent: {}
+[21.325731] (-) TimerEvent: {}
+[21.422273] (opencv_tools) CommandEnded: {'returncode': 0}
+[21.439993] (-) TimerEvent: {}
+[21.443712] (opencv_tools) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/opencv_tools', 'build', '--build-base', '/home/ed/ros2_ws/build/opencv_tools/build', 'install', '--record', '/home/ed/ros2_ws/build/opencv_tools/install.log', '--single-version-externally-managed'], 'cwd': '/home/ed/ros2_ws/src/opencv_tools', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ed', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ed', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/ed/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.86.2', 'DESKTOP_SESSION': 'ubuntu', 'PYENV_SHELL': 'bash', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1195', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ed/ros2_workspace/install:/home/ed/ros2_ws/install:/home/ed/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ed', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ed', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ed/.pyenv/shims:/home/ed/.pyenv/bin:/opt/ros/humble/bin:/home/ed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ed-desktop:@/tmp/.ICE-unix/1167,unix/ed-desktop:/tmp/.ICE-unix/1167', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/185a356c_3192_407d_b69f_63e2244b850b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1DTDJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d555fdb9ad.sock', 'GNOME_TERMINAL_SERVICE': ':1.115', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ed/ros2_ws/install/smartcart_controller:/home/ed/ros2_ws/install/opencv_tools:/home/ed/ros2_workspace/install/my_py_pkg:/home/ed/ros2_workspace/install/my_cpp_pkg:/home/ed/ros2_ws/src/install/smartcart_controller:/home/ed/ros2_ws/src/install/opencv_tools:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ed/ros2_ws/build/opencv_tools', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYENV_ROOT': '/home/ed/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ed/ros2_ws/build/opencv_tools/prefix_override:/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:/home/ed/ros2_ws/build/smartcart_controller:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/build/opencv_tools:/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:/home/ed/ros2_workspace/build/my_py_pkg:/home/ed/ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages:/home/ed/ros2_ws/src/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ed/ros2_workspace/install/my_cpp_pkg'}, 'shell': False}
+[21.540944] (-) TimerEvent: {}
+[21.642928] (-) TimerEvent: {}
+[21.751339] (-) TimerEvent: {}
+[21.835949] (smartcart_controller) StdoutLine: {'line': b'Removing /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart-controller.egg-link (link to .)\n'}
+[21.852956] (-) TimerEvent: {}
+[21.957821] (-) TimerEvent: {}
+[22.061555] (-) TimerEvent: {}
+[22.164232] (-) TimerEvent: {}
+[22.212377] (smartcart_controller) CommandEnded: {'returncode': 0}
+[22.226065] (smartcart_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/smartcart_controller', 'build', '--build-base', '/home/ed/ros2_ws/build/smartcart_controller/build', 'install', '--record', '/home/ed/ros2_ws/build/smartcart_controller/install.log', '--single-version-externally-managed'], 'cwd': '/home/ed/ros2_ws/src/smartcart_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ed', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ed', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/ed/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.86.2', 'DESKTOP_SESSION': 'ubuntu', 'PYENV_SHELL': 'bash', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '1195', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ed/ros2_workspace/install:/home/ed/ros2_ws/install:/home/ed/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ed', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ed', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ed/.pyenv/shims:/home/ed/.pyenv/bin:/opt/ros/humble/bin:/home/ed/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ed-desktop:@/tmp/.ICE-unix/1167,unix/ed-desktop:/tmp/.ICE-unix/1167', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/185a356c_3192_407d_b69f_63e2244b850b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1DTDJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d555fdb9ad.sock', 'GNOME_TERMINAL_SERVICE': ':1.115', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ed/ros2_ws/install/smartcart_controller:/home/ed/ros2_ws/install/opencv_tools:/home/ed/ros2_workspace/install/my_py_pkg:/home/ed/ros2_workspace/install/my_cpp_pkg:/home/ed/ros2_ws/src/install/smartcart_controller:/home/ed/ros2_ws/src/install/opencv_tools:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ed/ros2_ws/build/smartcart_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYENV_ROOT': '/home/ed/.pyenv', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ed/ros2_ws/build/smartcart_controller/prefix_override:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/build/smartcart_controller:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/build/opencv_tools:/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:/home/ed/ros2_workspace/build/my_py_pkg:/home/ed/ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages:/home/ed/ros2_ws/src/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ed/ros2_workspace/install/my_cpp_pkg'}, 'shell': False}
+[22.264447] (-) TimerEvent: {}
+[22.371423] (-) TimerEvent: {}
+[22.475622] (-) TimerEvent: {}
+[22.576955] (-) TimerEvent: {}
+[22.683668] (-) TimerEvent: {}
+[22.785551] (-) TimerEvent: {}
+[22.886990] (-) TimerEvent: {}
+[22.990140] (-) TimerEvent: {}
+[23.091546] (-) TimerEvent: {}
+[23.193129] (-) TimerEvent: {}
+[23.295229] (-) TimerEvent: {}
+[23.396518] (-) TimerEvent: {}
+[23.499092] (-) TimerEvent: {}
+[23.601585] (-) TimerEvent: {}
+[23.705168] (-) TimerEvent: {}
+[23.807120] (-) TimerEvent: {}
+[23.909477] (-) TimerEvent: {}
+[24.013109] (-) TimerEvent: {}
+[24.115719] (-) TimerEvent: {}
+[24.217100] (-) TimerEvent: {}
+[24.319589] (-) TimerEvent: {}
+[24.421403] (-) TimerEvent: {}
+[24.527363] (-) TimerEvent: {}
+[24.629812] (-) TimerEvent: {}
+[24.733289] (-) TimerEvent: {}
+[24.835156] (-) TimerEvent: {}
+[24.939576] (-) TimerEvent: {}
+[25.043702] (-) TimerEvent: {}
+[25.149658] (-) TimerEvent: {}
+[25.252101] (-) TimerEvent: {}
+[25.355239] (-) TimerEvent: {}
+[25.456767] (-) TimerEvent: {}
+[25.561375] (-) TimerEvent: {}
+[25.662831] (-) TimerEvent: {}
+[25.763935] (-) TimerEvent: {}
+[25.851726] (opencv_tools) StdoutLine: {'line': b'running egg_info\n'}
+[25.864184] (-) TimerEvent: {}
+[25.866499] (opencv_tools) StdoutLine: {'line': b'writing ../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO\n'}
+[25.873125] (opencv_tools) StdoutLine: {'line': b'writing dependency_links to ../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt\n'}
+[25.882923] (opencv_tools) StdoutLine: {'line': b'writing entry points to ../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt\n'}
+[25.891011] (opencv_tools) StdoutLine: {'line': b'writing requirements to ../../build/opencv_tools/opencv_tools.egg-info/requires.txt\n'}
+[25.897140] (opencv_tools) StdoutLine: {'line': b'writing top-level names to ../../build/opencv_tools/opencv_tools.egg-info/top_level.txt\n'}
+[25.933318] (opencv_tools) StdoutLine: {'line': b"reading manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'\n"}
+[25.951015] (opencv_tools) StdoutLine: {'line': b"writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'\n"}
+[25.952053] (opencv_tools) StdoutLine: {'line': b'running build\n'}
+[25.952715] (opencv_tools) StdoutLine: {'line': b'running build_py\n'}
+[25.962298] (opencv_tools) StdoutLine: {'line': b'running install\n'}
+[25.964286] (-) TimerEvent: {}
+[25.980996] (opencv_tools) StdoutLine: {'line': b'running install_lib\n'}
+[25.993649] (opencv_tools) StdoutLine: {'line': b'creating /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools\n'}
+[25.998802] (opencv_tools) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/opencv_tools/build/lib/opencv_tools/framerate.py -> /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools\n'}
+[26.002873] (opencv_tools) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/opencv_tools/build/lib/opencv_tools/webcam.py -> /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools\n'}
+[26.006888] (opencv_tools) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/opencv_tools/build/lib/opencv_tools/interpreter.py -> /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools\n'}
+[26.012256] (opencv_tools) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/opencv_tools/build/lib/opencv_tools/tracker.py -> /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools\n'}
+[26.016348] (opencv_tools) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/opencv_tools/build/lib/opencv_tools/basic_image_subscriber.py -> /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools\n'}
+[26.018747] (opencv_tools) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/opencv_tools/build/lib/opencv_tools/videostream.py -> /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools\n'}
+[26.025319] (opencv_tools) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/opencv_tools/build/lib/opencv_tools/__init__.py -> /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools\n'}
+[26.028761] (opencv_tools) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/opencv_tools/build/lib/opencv_tools/motor_controller.py -> /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools\n'}
+[26.031675] (opencv_tools) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/opencv_tools/build/lib/opencv_tools/img_publisher_test.py -> /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools\n'}
+[26.034341] (opencv_tools) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/opencv_tools/build/lib/opencv_tools/utilities.py -> /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools\n'}
+[26.038946] (opencv_tools) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/opencv_tools/build/lib/opencv_tools/basic_image_publisher.py -> /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools\n'}
+[26.039724] (opencv_tools) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/opencv_tools/build/lib/opencv_tools/tensor_image_publisher.py -> /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools\n'}
+[26.046109] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/framerate.py to framerate.cpython-310.pyc\n'}
+[26.048920] (smartcart_controller) StdoutLine: {'line': b'running egg_info\n'}
+[26.055966] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/webcam.py to webcam.cpython-310.pyc\n'}
+[26.064201] (smartcart_controller) StdoutLine: {'line': b'writing ../../build/smartcart_controller/smartcart_controller.egg-info/PKG-INFO\n'}
+[26.065983] (-) TimerEvent: {}
+[26.072920] (smartcart_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/smartcart_controller/smartcart_controller.egg-info/dependency_links.txt\n'}
+[26.076995] (smartcart_controller) StdoutLine: {'line': b'writing entry points to ../../build/smartcart_controller/smartcart_controller.egg-info/entry_points.txt\n'}
+[26.078022] (smartcart_controller) StdoutLine: {'line': b'writing requirements to ../../build/smartcart_controller/smartcart_controller.egg-info/requires.txt\n'}
+[26.079656] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/interpreter.py to interpreter.cpython-310.pyc\n'}
+[26.082063] (smartcart_controller) StdoutLine: {'line': b'writing top-level names to ../../build/smartcart_controller/smartcart_controller.egg-info/top_level.txt\n'}
+[26.082821] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/tracker.py to tracker.cpython-310.pyc\n'}
+[26.090844] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/basic_image_subscriber.py to basic_image_subscriber.cpython-310.pyc\n'}
+[26.092638] (smartcart_controller) StdoutLine: {'line': b"reading manifest file '../../build/smartcart_controller/smartcart_controller.egg-info/SOURCES.txt'\n"}
+[26.101749] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/videostream.py to videostream.cpython-310.pyc\n'}
+[26.103329] (smartcart_controller) StdoutLine: {'line': b"writing manifest file '../../build/smartcart_controller/smartcart_controller.egg-info/SOURCES.txt'\n"}
+[26.106127] (smartcart_controller) StdoutLine: {'line': b'running build\n'}
+[26.107300] (smartcart_controller) StdoutLine: {'line': b'running build_py\n'}
+[26.112722] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/__init__.py to __init__.cpython-310.pyc\n'}
+[26.113899] (smartcart_controller) StdoutLine: {'line': b'copying smartcart_controller/motor_subscriber.py -> /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller\n'}
+[26.116301] (smartcart_controller) StdoutLine: {'line': b'running install\n'}
+[26.116974] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/motor_controller.py to motor_controller.cpython-310.pyc\n'}
+[26.121636] (smartcart_controller) StdoutLine: {'line': b'running install_lib\n'}
+[26.122977] (smartcart_controller) StdoutLine: {'line': b'creating /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[26.128547] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/framerate.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[26.133956] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/img_publisher_test.py to img_publisher_test.cpython-310.pyc\n'}
+[26.138025] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/webcam.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[26.138874] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/interpreter.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[26.139898] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/tracker.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[26.140862] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/motor_controller_subscriber.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[26.146548] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/utilities.py to utilities.cpython-310.pyc\n'}
+[26.153307] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/basic_image_subscriber.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[26.154740] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/videostream.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[26.155458] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/__init__.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[26.161839] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/motor_controller.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[26.162796] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/basic_image_publisher.py to basic_image_publisher.cpython-310.pyc\n'}
+[26.163446] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/my_first_node.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[26.164368] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/img_publisher_test.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[26.166987] (-) TimerEvent: {}
+[26.169878] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/utilities.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[26.171482] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/motor_subscriber.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[26.179141] (opencv_tools) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/tensor_image_publisher.py to tensor_image_publisher.cpython-310.pyc\n'}
+[26.180595] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/tensor_image_publisher.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[26.185863] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/framerate.py to framerate.cpython-310.pyc\n'}
+[26.187244] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/webcam.py to webcam.cpython-310.pyc\n'}
+[26.194031] (opencv_tools) StdoutLine: {'line': b'running install_data\n'}
+[26.197168] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/interpreter.py to interpreter.cpython-310.pyc\n'}
+[26.200647] (opencv_tools) StdoutLine: {'line': b'running install_egg_info\n'}
+[26.201331] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/tracker.py to tracker.cpython-310.pyc\n'}
+[26.202458] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/motor_controller_subscriber.py to motor_controller_subscriber.cpython-310.pyc\n'}
+[26.205792] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/basic_image_subscriber.py to basic_image_subscriber.cpython-310.pyc\n'}
+[26.214425] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/videostream.py to videostream.cpython-310.pyc\n'}
+[26.217734] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[26.219684] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/motor_controller.py to motor_controller.cpython-310.pyc\n'}
+[26.225036] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[26.226476] (opencv_tools) StdoutLine: {'line': b'Copying ../../build/opencv_tools/opencv_tools.egg-info to /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info\n'}
+[26.230427] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/img_publisher_test.py to img_publisher_test.cpython-310.pyc\n'}
+[26.237976] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/utilities.py to utilities.cpython-310.pyc\n'}
+[26.244467] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/motor_subscriber.py to motor_subscriber.cpython-310.pyc\n'}
+[26.251937] (opencv_tools) StdoutLine: {'line': b'running install_scripts\n'}
+[26.253913] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/tensor_image_publisher.py to tensor_image_publisher.cpython-310.pyc\n'}
+[26.267642] (smartcart_controller) StdoutLine: {'line': b'running install_data\n'}
+[26.269126] (-) TimerEvent: {}
+[26.280838] (smartcart_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[26.301986] (smartcart_controller) StdoutLine: {'line': b'Copying ../../build/smartcart_controller/smartcart_controller.egg-info to /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller-0.0.0-py3.10.egg-info\n'}
+[26.321744] (smartcart_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[26.369802] (-) TimerEvent: {}
+[26.472141] (-) TimerEvent: {}
+[26.484088] (smartcart_controller) StdoutLine: {'line': b'Installing img_subscriber script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller\n'}
+[26.485341] (smartcart_controller) StdoutLine: {'line': b'Installing motor_subscriber script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller\n'}
+[26.486688] (smartcart_controller) StdoutLine: {'line': b'Installing tensor_img_publisher script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller\n'}
+[26.488412] (smartcart_controller) StdoutLine: {'line': b'Installing test_node script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller\n'}
+[26.492637] (smartcart_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ed/ros2_ws/build/smartcart_controller/install.log'\n"}
+[26.536918] (opencv_tools) StdoutLine: {'line': b'Installing img_publisher script to /home/ed/ros2_ws/install/opencv_tools/lib/opencv_tools\n'}
+[26.544395] (opencv_tools) StdoutLine: {'line': b'Installing img_subscriber script to /home/ed/ros2_ws/install/opencv_tools/lib/opencv_tools\n'}
+[26.551751] (opencv_tools) StdoutLine: {'line': b'Installing tensor_img_publisher script to /home/ed/ros2_ws/install/opencv_tools/lib/opencv_tools\n'}
+[26.557793] (opencv_tools) StdoutLine: {'line': b"writing list of installed files to '/home/ed/ros2_ws/build/opencv_tools/install.log'\n"}
+[26.573358] (-) TimerEvent: {}
+[26.683014] (-) TimerEvent: {}
+[26.790932] (-) TimerEvent: {}
+[26.913851] (smartcart_controller) CommandEnded: {'returncode': 0}
+[26.921455] (-) TimerEvent: {}
+[27.035299] (-) TimerEvent: {}
+[27.138840] (-) TimerEvent: {}
+[27.241747] (-) TimerEvent: {}
+[27.345953] (-) TimerEvent: {}
+[27.447568] (-) TimerEvent: {}
+[27.549384] (-) TimerEvent: {}
+[27.650802] (-) TimerEvent: {}
+[27.752733] (-) TimerEvent: {}
+[27.854784] (-) TimerEvent: {}
+[27.956267] (-) TimerEvent: {}
+[28.059897] (-) TimerEvent: {}
+[28.104340] (smartcart_controller) JobEnded: {'identifier': 'smartcart_controller', 'rc': 0}
+[28.116000] (opencv_tools) CommandEnded: {'returncode': 0}
+[28.161516] (-) TimerEvent: {}
+[28.263680] (-) TimerEvent: {}
+[28.365317] (-) TimerEvent: {}
+[28.467878] (-) TimerEvent: {}
+[28.571243] (-) TimerEvent: {}
+[28.674471] (-) TimerEvent: {}
+[28.777703] (-) TimerEvent: {}
+[28.881140] (-) TimerEvent: {}
+[28.983021] (-) TimerEvent: {}
+[29.085817] (-) TimerEvent: {}
+[29.145104] (opencv_tools) JobEnded: {'identifier': 'opencv_tools', 'rc': 0}
+[29.157912] (-) EventReactorShutdown: {}

@@ -1,0 +1,19 @@
+[7.012s] Invoking command in '/home/ed/ros2_ws/build/opencv_tools': PYTHONPATH=/home/ed/ros2_ws/build/opencv_tools/prefix_override:/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ed/ros2_ws/build/opencv_tools/build --no-deps install_data
+[8.599s] running develop
+[10.618s] running egg_info
+[10.621s] writing opencv_tools.egg-info/PKG-INFO
+[10.625s] writing dependency_links to opencv_tools.egg-info/dependency_links.txt
+[10.632s] writing entry points to opencv_tools.egg-info/entry_points.txt
+[10.635s] writing requirements to opencv_tools.egg-info/requires.txt
+[10.638s] writing top-level names to opencv_tools.egg-info/top_level.txt
+[10.690s] reading manifest file 'opencv_tools.egg-info/SOURCES.txt'
+[10.691s] writing manifest file 'opencv_tools.egg-info/SOURCES.txt'
+[10.694s] running build_ext
+[10.696s] Creating /home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages/opencv-tools.egg-link (link to .)
+[10.705s] Installing img_publisher script to /home/ed/ros2_ws/install/opencv_tools/lib/opencv_tools
+[10.714s] Installing img_subscriber script to /home/ed/ros2_ws/install/opencv_tools/lib/opencv_tools
+[10.716s] Installing tensor_img_publisher script to /home/ed/ros2_ws/install/opencv_tools/lib/opencv_tools
+[10.728s] 
+[10.733s] Installed /home/ed/ros2_ws/build/opencv_tools
+[10.735s] running install_data
+[12.414s] Invoked command in '/home/ed/ros2_ws/build/opencv_tools' returned '0': PYTHONPATH=/home/ed/ros2_ws/build/opencv_tools/prefix_override:/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ed/ros2_ws/build/opencv_tools/build --no-deps install_data

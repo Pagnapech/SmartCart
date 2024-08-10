@@ -1,0 +1,99 @@
+[1.985s] Invoking command in '/home/ed/ros2_ws/src/build/v4l2_camera': CMAKE_PREFIX_PATH=/home/ed/ros2_ws/install/smartcart_controller:/opt/ros/humble /usr/bin/cmake /home/ed/ros2_ws/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/ed/ros2_ws/src/install/v4l2_camera
+[2.876s] -- The C compiler identification is GNU 11.4.0
+[3.686s] -- The CXX compiler identification is GNU 11.4.0
+[3.757s] -- Detecting C compiler ABI info
+[4.165s] -- Detecting C compiler ABI info - done
+[4.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.198s] -- Detecting C compile features
+[4.202s] -- Detecting C compile features - done
+[4.223s] -- Detecting CXX compiler ABI info
+[4.664s] -- Detecting CXX compiler ABI info - done
+[4.690s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.691s] -- Detecting CXX compile features
+[4.693s] -- Detecting CXX compile features - done
+[4.763s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.867s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[6.605s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.031s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[8.562s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.622s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.710s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.831s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.991s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.507s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.544s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.567s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[10.836s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.286s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.393s] -- Looking for pthread.h
+[11.810s] -- Looking for pthread.h - found
+[11.811s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.173s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.179s] -- Found Threads: TRUE  
+[12.977s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[13.421s] -- Found image_transport: 3.1.8 (/opt/ros/humble/share/image_transport/cmake)
+[14.394s] -- Found camera_info_manager: 3.1.8 (/opt/ros/humble/share/camera_info_manager/cmake)
+[14.658s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.236s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.237s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ed/ros2_ws/src/ros2_v4l2_camera/include>
+[15.237s] -- Configured cppcheck exclude dirs and/or files: 
+[15.273s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[15.274s] -- Configured cpplint exclude dirs and/or files: 
+[15.291s] -- Added test 'lint_cmake' to check CMake code style
+[15.334s] -- Added test 'uncrustify' to check C / C++ code style
+[15.335s] -- Configured uncrustify additional arguments: 
+[15.342s] -- Added test 'xmllint' to check XML markup files
+[15.376s] -- Configuring done
+[15.494s] -- Generating done
+[15.502s] -- Build files have been written to: /home/ed/ros2_ws/src/build/v4l2_camera
+[15.570s] Invoked command in '/home/ed/ros2_ws/src/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/home/ed/ros2_ws/install/smartcart_controller:/opt/ros/humble /usr/bin/cmake /home/ed/ros2_ws/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/ed/ros2_ws/src/install/v4l2_camera
+[15.573s] Invoking command in '/home/ed/ros2_ws/src/build/v4l2_camera': CMAKE_PREFIX_PATH=/home/ed/ros2_ws/install/smartcart_controller:/opt/ros/humble /usr/bin/cmake --build /home/ed/ros2_ws/src/build/v4l2_camera -- -j4 -l4
+[15.801s] [ 14%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[15.804s] [ 28%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o[0m
+[30.328s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[30.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[30.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[30.330s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40[m[K,
+[30.330s]                  from [01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:45[m[K,
+[30.332s]                  from [01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera.hpp:20[m[K,
+[30.332s]                  from [01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:15[m[K:
+[30.333s] [01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:[m[K In member function ‘[01m[Kbool v4l2_camera::V4L2Camera::requestImageSize(const std::vector<long int, std::allocator<long int> >&)[m[K’:
+[30.334s] [01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:365:7:[m[K [01;31m[Kerror: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<long int, std::allocator<long int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Werror=format=]8;;[m[K]
+[30.334s]   365 |       [01;31m[K"Invalid image size; expected dimensions: 2, actual: %d"[m[K,
+[30.335s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.335s]   366 |       [32m[Ksize.size()[m[K);
+[30.336s]       |       [32m[K~~~~~~~~~~~[m[K
+[30.337s]       |                [32m[K|[m[K
+[30.337s]       |                [32m[Kstd::vector<long int, std::allocator<long int> >::size_type {aka long unsigned int}[m[K
+[30.338s] [01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:365:61:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[30.338s]   365 |       "Invalid image size; expected dimensions: 2, actual: [01;36m[K%d[m[K",
+[30.339s]       |                                                            [01;36m[K~^[m[K
+[30.340s]       |                                                             [01;36m[K|[m[K
+[30.340s]       |                                                             [01;36m[Kint[m[K
+[30.341s]       |                                                            [32m[K%ld[m[K
+[30.341s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[30.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[30.342s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[30.343s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40[m[K,
+[30.343s]                  from [01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:45[m[K,
+[30.344s]                  from [01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera.hpp:20[m[K,
+[30.345s]                  from [01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:15[m[K:
+[30.346s] [01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:[m[K In member function ‘[01m[Kbool v4l2_camera::V4L2Camera::requestTimePerFrame(const TimePerFrame&)[m[K’:
+[30.347s] [01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:386:7:[m[K [01;31m[Kerror: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<long int, std::allocator<long int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Werror=format=]8;;[m[K]
+[30.347s]   386 |       [01;31m[K"Invalid time per frame; expected dimensions: 2, actual: %d"[m[K,
+[30.348s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[30.349s]   387 |       [32m[Ktpf.size()[m[K);
+[30.350s]       |       [32m[K~~~~~~~~~~[m[K
+[30.351s]       |               [32m[K|[m[K
+[30.352s]       |               [32m[Kstd::vector<long int, std::allocator<long int> >::size_type {aka long unsigned int}[m[K
+[30.353s] [01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:386:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[30.353s]   386 |       "Invalid time per frame; expected dimensions: 2, actual: [01;36m[K%d[m[K",
+[30.354s]       |                                                                [01;36m[K~^[m[K
+[30.354s]       |                                                                 [01;36m[K|[m[K
+[30.355s]       |                                                                 [01;36m[Kint[m[K
+[30.356s]       |                                                                [32m[K%ld[m[K
+[42.987s] cc1plus: all warnings being treated as errors
+[43.153s] gmake[2]: *** [CMakeFiles/v4l2_camera.dir/build.make:76: CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o] Error 1
+[43.154s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/v4l2_camera.dir/all] Error 2
+[43.156s] gmake: *** [Makefile:146: all] Error 2
+[43.170s] Invoked command in '/home/ed/ros2_ws/src/build/v4l2_camera' returned '2': CMAKE_PREFIX_PATH=/home/ed/ros2_ws/install/smartcart_controller:/opt/ros/humble /usr/bin/cmake --build /home/ed/ros2_ws/src/build/v4l2_camera -- -j4 -l4

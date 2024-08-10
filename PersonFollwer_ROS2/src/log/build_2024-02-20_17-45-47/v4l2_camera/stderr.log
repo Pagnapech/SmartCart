@@ -1,0 +1,46 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:45[m[K,
+                 from [01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera.hpp:20[m[K,
+                 from [01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:15[m[K:
+[01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:[m[K In member function ‘[01m[Kbool v4l2_camera::V4L2Camera::requestImageSize(const std::vector<long int, std::allocator<long int> >&)[m[K’:
+[01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:365:7:[m[K [01;31m[Kerror: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<long int, std::allocator<long int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Werror=format=]8;;[m[K]
+  365 |       [01;31m[K"Invalid image size; expected dimensions: 2, actual: %d"[m[K,
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  366 |       [32m[Ksize.size()[m[K);
+      |       [32m[K~~~~~~~~~~~[m[K
+      |                [32m[K|[m[K
+      |                [32m[Kstd::vector<long int, std::allocator<long int> >::size_type {aka long unsigned int}[m[K
+[01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:365:61:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  365 |   "Invalid image size; expected dimensions: 2, actual: [01;36m[K%d[m[K",
+      |                                                        [01;36m[K~^[m[K
+      |                                                         [01;36m[K|[m[K
+      |                                                         [01;36m[Kint[m[K
+      |                                                        [32m[K%ld[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:45[m[K,
+                 from [01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera.hpp:20[m[K,
+                 from [01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:15[m[K:
+[01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:[m[K In member function ‘[01m[Kbool v4l2_camera::V4L2Camera::requestTimePerFrame(const TimePerFrame&)[m[K’:
+[01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:386:7:[m[K [01;31m[Kerror: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::vector<long int, std::allocator<long int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Werror=format=]8;;[m[K]
+  386 |       [01;31m[K"Invalid time per frame; expected dimensions: 2, actual: %d"[m[K,
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  387 |       [32m[Ktpf.size()[m[K);
+      |       [32m[K~~~~~~~~~~[m[K
+      |               [32m[K|[m[K
+      |               [32m[Kstd::vector<long int, std::allocator<long int> >::size_type {aka long unsigned int}[m[K
+[01m[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:386:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  386 | nvalid time per frame; expected dimensions: 2, actual: [01;36m[K%d[m[K",
+      |                                                        [01;36m[K~^[m[K
+      |                                                         [01;36m[K|[m[K
+      |                                                         [01;36m[Kint[m[K
+      |                                                        [32m[K%ld[m[K
+cc1plus: all warnings being treated as errors
+gmake[2]: *** [CMakeFiles/v4l2_camera.dir/build.make:76: CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/v4l2_camera.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ed/ros2_ws/build/smartcart_controller",
+        "/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages",
+        "/home/ed/ros2_ws/build/opencv_tools",
+        "/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages",
+        "/home/ed/ros2_workspace/build/my_py_pkg",
+        "/home/ed/ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/ed/ros2_ws/src/install/smartcart_controller/lib/python3.10/site-packages",
+        "/home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ed/ros2_ws/build/smartcart_controller",
+        "/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages",
+        "/home/ed/ros2_ws/build/opencv_tools",
+        "/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages",
+        "/home/ed/ros2_workspace/build/my_py_pkg",
+        "/home/ed/ros2_workspace/install/my_py_pkg/lib/python3.10/site-packages",
+        "/home/ed/ros2_ws/src/install/smartcart_controller/lib/python3.10/site-packages",
+        "/home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

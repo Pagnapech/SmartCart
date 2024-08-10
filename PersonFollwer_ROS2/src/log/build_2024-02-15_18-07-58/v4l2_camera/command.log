@@ -1,0 +1,4 @@
+Invoking command in '/home/ed/ros2_ws/src/build/v4l2_camera': CMAKE_PREFIX_PATH=/home/ed/ros2_ws/install/smartcart_controller:/opt/ros/humble /usr/bin/cmake /home/ed/ros2_ws/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/ed/ros2_ws/src/install/v4l2_camera
+Invoked command in '/home/ed/ros2_ws/src/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/home/ed/ros2_ws/install/smartcart_controller:/opt/ros/humble /usr/bin/cmake /home/ed/ros2_ws/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/ed/ros2_ws/src/install/v4l2_camera
+Invoking command in '/home/ed/ros2_ws/src/build/v4l2_camera': CMAKE_PREFIX_PATH=/home/ed/ros2_ws/install/smartcart_controller:/opt/ros/humble /usr/bin/cmake --build /home/ed/ros2_ws/src/build/v4l2_camera -- -j4 -l4
+Invoked command in '/home/ed/ros2_ws/src/build/v4l2_camera' returned '2': CMAKE_PREFIX_PATH=/home/ed/ros2_ws/install/smartcart_controller:/opt/ros/humble /usr/bin/cmake --build /home/ed/ros2_ws/src/build/v4l2_camera -- -j4 -l4

@@ -1,0 +1,28 @@
+[0.000000] (-) TimerEvent: {}
+[0.001493] (opencv_tools) JobQueued: {'identifier': 'opencv_tools', 'dependencies': OrderedDict()}
+[0.001791] (smartcart_controller) JobQueued: {'identifier': 'smartcart_controller', 'dependencies': OrderedDict()}
+[0.002300] (opencv_tools) JobStarted: {'identifier': 'opencv_tools'}
+[0.097576] (-) TimerEvent: {}
+[0.198619] (-) TimerEvent: {}
+[0.300625] (-) TimerEvent: {}
+[0.402413] (-) TimerEvent: {}
+[0.504042] (-) TimerEvent: {}
+[0.608940] (-) TimerEvent: {}
+[0.612452] (opencv_tools) JobEnded: {'identifier': 'opencv_tools', 'rc': 0}
+[0.616421] (smartcart_controller) JobStarted: {'identifier': 'smartcart_controller'}
+[0.709268] (-) TimerEvent: {}
+[0.810130] (-) TimerEvent: {}
+[0.912070] (-) TimerEvent: {}
+[1.014177] (-) TimerEvent: {}
+[1.114959] (-) TimerEvent: {}
+[1.218217] (-) TimerEvent: {}
+[1.320512] (-) TimerEvent: {}
+[1.424328] (-) TimerEvent: {}
+[1.531682] (-) TimerEvent: {}
+[1.634327] (-) TimerEvent: {}
+[1.735780] (-) TimerEvent: {}
+[1.848201] (-) TimerEvent: {}
+[1.950802] (-) TimerEvent: {}
+[2.052970] (-) TimerEvent: {}
+[2.075760] (smartcart_controller) JobEnded: {'identifier': 'smartcart_controller', 'rc': 'SIGINT'}
+[2.087388] (-) EventReactorShutdown: {}

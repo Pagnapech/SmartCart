@@ -1,0 +1,7 @@
+[console_scripts]
+img_subscriber = smartcart_controller.basic_image_subscriber:main
+motor_subscriber = smartcart_controller.motor_subscriber:main
+tensor_img_publisher = smartcart_controller.tensor_image_publisher:main
+test_node = smartcart_controller.my_first_node:main
+ultrasonic_publisher = smartcart_controller.ultrasonic_publisher:main
+

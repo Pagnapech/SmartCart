@@ -1,0 +1,393 @@
+/* background {
+
+} */
+/* Link: https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy */
+
+
+
+/* .header {
+  width: 50%; 
+  height: 10vh; 
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;    
+} */
+/* Home css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.home-logo {
+  max-width: 750px;
+  margin-bottom: 20px;
+}
+
+.home-buttonContainer {
+  margin-top: 20px;
+}
+
+.home-button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+.gui_title {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  font-weight: bold;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 5%;
+  color: black; 
+}
+
+#gui_table, #receipt_table  {
+  table-layout: auto; 
+  width: 90%;
+  border-collapse: collapse;
+  margin: auto;
+  /* margin-right: auto; */
+  
+}
+
+#receipt_table th {
+  background-color: #92b8ee;
+  text-align: left;
+  color:black;
+}
+
+#receipt_table th, #receipt_table td  {
+  border: 1px solid black; 
+  padding: 6px; 
+  text-align: center;
+}
+
+#gui_table th {
+  background-color: #92b8ee;
+  text-align: left;
+  color:black;
+}
+
+#gui_table th, #gui_table td  {
+  border: 1px solid black; 
+  padding: 8px; 
+  text-align: center;
+}
+
+#gui_table tr:nth-child(odd) {
+  background-color: rgb(215, 228, 250);
+}
+
+#gui_table tr:hover {
+  background-color: rgb(12, 157, 247);
+}
+
+#total  {
+  color: darkblue;
+  font-weight: bold;
+  font-size: 18px;
+  float: right;
+  margin-right: 5%;
+}
+
+#total #total_price {
+  width: auto;
+  /* border: 2px solid black; */
+  padding: 5px;
+  color: darkblue;
+}
+
+button.page_button {
+  width: auto;
+  float: right;
+  font-weight: bold;
+  background-color:rgb(58, 165, 58);
+  padding: 10px;
+  margin-left: 100%;
+  margin-right: 5%;
+}
+
+button:hover {
+  background-color: rgb(58, 165, 58);
+  color: white;
+}
+
+.receipt_title {
+  width: 100%;
+    height: auto;
+    display: inline-flex;
+    font-weight: bold;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+    color: black; 
+}
+
+.store_address {
+  font-weight: normal;
+  float: right; 
+  margin-right: 5%;
+}
+
+h3.logo {
+  float: right; 
+  padding-bottom: 10%;
+  margin-right: 5%;
+}
+
+.store_name {
+  color: black;
+  font-weight: bold;
+}
+
+.info::after {
+  float: left; 
+  content: "\a"; 
+  white-space: pre;
+  padding-bottom: 5px;
+  margin-right: 25%;
+}
+
+#box {
+  display: inline-block;
+  width: auto;
+  border: 1.5px solid black;
+  padding: 2px;
+  color: darkblue;
+}
+
+#date {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+#current_date {
+  font-weight: normal; 
+}
+
+.page_button .home_button {
+  background-color:rgb(58, 99, 165);
+}
+
+/** Sign In Design **/
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+  
+}
+
+.welcome-message {
+  text-align: center;
+  font-size: 50px; /* Example font size */
+  color: #000000; /* Example color */
+  margin-bottom: 20px; /* Adds space below the welcome message */
+}
+
+h2 {
+  margin: 0 0 20px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #009dff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0037ff;
+}
+
+.signup-prompt {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup-prompt a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.signup-prompt a:hover {
+  text-decoration: underline;
+}
+
+
+/** Sign Up Page **/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.signup-container {
+  background: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  width: 350px; /* Adjusted width for the sign-up form */
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px; /* Space below the page title */
+}
+
+label {
+  display: block; /* Ensure labels are on their own line */
+  text-align: left; /* Align text to the left for readability */
+  margin-bottom: 5px; /* Space above each input field */
+  font-weight: bold; /* Make labels bold for clarity */
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+  width: calc(100% - 20px); /* Adjust for padding */
+  padding: 10px;
+  margin-bottom: 20px; /* Space between input fields */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #009dff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007ace; /* Slightly darker blue on hover */
+}
+
+.login-link {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+
+
+/** Payment Processesing **/
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.payment-container {
+  background: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  width: 500px; /* Adjusted for payment information */
+  text-align: left; /* Align text to the left for table */
+}
+
+.payment-table {
+  width: 100%;
+  margin-bottom: 20px; /* Space before the CVC input */
+  border-collapse: collapse; /* Remove space between borders */
+}
+
+.payment-table td {
+  padding: 8px;
+  border: 1px solid #ddd; /* Light grey border */
+}
+
+.payment-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Zebra striping for rows */
+}
+
+.cvc-confirmation-form label {
+  display: block;
+  margin-bottom: 10px; /* Space above the CVC input */
+}
+
+input[type="text"] {
+  width: calc(100% - 20px); /* Adjust width to account for padding */
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.confirm-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #009dff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.confirm-button:hover {
+  background-color: #007ace; /* Slightly darker blue on hover */
+}

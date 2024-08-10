@@ -1,0 +1,21 @@
+[6.496s] Invoking command in '/home/ed/ros2_ws/build/smartcart_controller': PYTHONPATH=/home/ed/ros2_ws/build/smartcart_controller/prefix_override:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ed/ros2_ws/build/smartcart_controller/build --no-deps install_data
+[8.028s] running develop
+[9.091s] running egg_info
+[9.093s] writing smartcart_controller.egg-info/PKG-INFO
+[9.096s] writing dependency_links to smartcart_controller.egg-info/dependency_links.txt
+[9.099s] writing entry points to smartcart_controller.egg-info/entry_points.txt
+[9.100s] writing requirements to smartcart_controller.egg-info/requires.txt
+[9.102s] writing top-level names to smartcart_controller.egg-info/top_level.txt
+[9.110s] reading manifest file 'smartcart_controller.egg-info/SOURCES.txt'
+[9.131s] writing manifest file 'smartcart_controller.egg-info/SOURCES.txt'
+[9.142s] running build_ext
+[9.142s] Creating /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart-controller.egg-link (link to .)
+[9.144s] Installing img_subscriber script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller
+[9.145s] Installing motor_subscriber script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller
+[9.146s] Installing tensor_img_publisher script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller
+[9.147s] Installing test_node script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller
+[9.148s] Installing ultrasonic_publisher script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller
+[9.150s] 
+[9.152s] Installed /home/ed/ros2_ws/build/smartcart_controller
+[9.153s] running install_data
+[9.429s] Invoked command in '/home/ed/ros2_ws/build/smartcart_controller' returned '0': PYTHONPATH=/home/ed/ros2_ws/build/smartcart_controller/prefix_override:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ed/ros2_ws/build/smartcart_controller/build --no-deps install_data

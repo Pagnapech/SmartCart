@@ -1,0 +1,529 @@
+[0.000000] (-) TimerEvent: {}
+[0.001852] (smartcart_controller) JobQueued: {'identifier': 'smartcart_controller', 'dependencies': OrderedDict()}
+[0.002450] (v4l2_camera) JobQueued: {'identifier': 'v4l2_camera', 'dependencies': OrderedDict()}
+[0.002542] (smartcart_controller) JobStarted: {'identifier': 'smartcart_controller'}
+[0.100218] (-) TimerEvent: {}
+[0.201050] (-) TimerEvent: {}
+[0.301896] (-) TimerEvent: {}
+[0.402899] (-) TimerEvent: {}
+[0.486108] (v4l2_camera) JobStarted: {'identifier': 'v4l2_camera'}
+[0.503142] (-) TimerEvent: {}
+[0.603879] (-) TimerEvent: {}
+[0.707303] (-) TimerEvent: {}
+[0.808223] (-) TimerEvent: {}
+[0.909395] (-) TimerEvent: {}
+[1.010189] (-) TimerEvent: {}
+[1.110929] (-) TimerEvent: {}
+[1.211896] (-) TimerEvent: {}
+[1.312578] (-) TimerEvent: {}
+[1.413232] (-) TimerEvent: {}
+[1.514151] (-) TimerEvent: {}
+[1.614813] (-) TimerEvent: {}
+[1.715682] (-) TimerEvent: {}
+[1.816363] (-) TimerEvent: {}
+[1.917038] (-) TimerEvent: {}
+[2.017727] (-) TimerEvent: {}
+[2.118586] (-) TimerEvent: {}
+[2.219900] (-) TimerEvent: {}
+[2.320844] (-) TimerEvent: {}
+[2.421636] (-) TimerEvent: {}
+[2.522345] (-) TimerEvent: {}
+[2.580333] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'cmake'}
+[2.581308] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/ed/ros2_ws/src/ros2_v4l2_camera', '-DCMAKE_INSTALL_PREFIX=/home/ed/ros2_ws/install/v4l2_camera'], 'cwd': '/home/ed/ros2_ws/build/v4l2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ed'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ed'), ('OLDPWD', '/home/ed/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1238'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ed/ros2_ws/src/install:/home/ed/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ed'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ed'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ed-desktop:@/tmp/.ICE-unix/1201,unix/ed-desktop:/tmp/.ICE-unix/1201'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a08a764f_5dc9_455b_9561_de716252f818'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0PMXI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ed/ros2_ws/src/install/smartcart_controller:/home/ed/ros2_ws/install/smartcart_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ed/ros2_ws/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ed/ros2_ws/src/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/build/smartcart_controller:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ed/ros2_ws/src/install/smartcart_controller:/home/ed/ros2_ws/install/smartcart_controller:/opt/ros/humble')]), 'shell': False}
+[2.622600] (-) TimerEvent: {}
+[2.724176] (-) TimerEvent: {}
+[2.825041] (-) TimerEvent: {}
+[2.914417] (v4l2_camera) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.925255] (-) TimerEvent: {}
+[3.026020] (-) TimerEvent: {}
+[3.126753] (-) TimerEvent: {}
+[3.206293] (v4l2_camera) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.226961] (-) TimerEvent: {}
+[3.237117] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.327142] (-) TimerEvent: {}
+[3.428213] (-) TimerEvent: {}
+[3.529762] (-) TimerEvent: {}
+[3.590955] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.615889] (v4l2_camera) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.617807] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.620682] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.629930] (-) TimerEvent: {}
+[3.632939] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.730109] (-) TimerEvent: {}
+[3.830938] (-) TimerEvent: {}
+[3.931737] (-) TimerEvent: {}
+[4.025313] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.031900] (-) TimerEvent: {}
+[4.052395] (v4l2_camera) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.053566] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.055250] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.085366] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.132171] (-) TimerEvent: {}
+[4.233194] (-) TimerEvent: {}
+[4.334444] (-) TimerEvent: {}
+[4.435170] (-) TimerEvent: {}
+[4.536078] (-) TimerEvent: {}
+[4.637088] (-) TimerEvent: {}
+[4.738404] (-) TimerEvent: {}
+[4.839956] (-) TimerEvent: {}
+[4.891263] (smartcart_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/ed/ros2_ws/build/smartcart_controller/build'], 'cwd': '/home/ed/ros2_ws/build/smartcart_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ed', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ed', 'OLDPWD': '/home/ed/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1238', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ed/ros2_ws/src/install:/home/ed/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ed', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ed', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ed-desktop:@/tmp/.ICE-unix/1201,unix/ed-desktop:/tmp/.ICE-unix/1201', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a08a764f_5dc9_455b_9561_de716252f818', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0PMXI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.130', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ed/ros2_ws/src/install/smartcart_controller:/home/ed/ros2_ws/install/smartcart_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ed/ros2_ws/build/smartcart_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ed/ros2_ws/build/smartcart_controller/prefix_override:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/src/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/build/smartcart_controller:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.940106] (-) TimerEvent: {}
+[5.040961] (-) TimerEvent: {}
+[5.142050] (-) TimerEvent: {}
+[5.213663] (v4l2_camera) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[5.242315] (-) TimerEvent: {}
+[5.343141] (-) TimerEvent: {}
+[5.444463] (-) TimerEvent: {}
+[5.545228] (-) TimerEvent: {}
+[5.646270] (-) TimerEvent: {}
+[5.746931] (-) TimerEvent: {}
+[5.847655] (-) TimerEvent: {}
+[5.857341] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.944414] (v4l2_camera) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.947750] (-) TimerEvent: {}
+[6.048663] (-) TimerEvent: {}
+[6.149360] (-) TimerEvent: {}
+[6.250043] (-) TimerEvent: {}
+[6.339275] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.350285] (-) TimerEvent: {}
+[6.388450] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.439404] (smartcart_controller) StdoutLine: {'line': b'running develop\n'}
+[6.450450] (-) TimerEvent: {}
+[6.457071] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.546926] (v4l2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.550633] (-) TimerEvent: {}
+[6.651338] (-) TimerEvent: {}
+[6.683575] (v4l2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.751520] (-) TimerEvent: {}
+[6.852265] (-) TimerEvent: {}
+[6.952966] (-) TimerEvent: {}
+[7.053666] (-) TimerEvent: {}
+[7.117590] (v4l2_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.142382] (v4l2_camera) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.153861] (-) TimerEvent: {}
+[7.255536] (-) TimerEvent: {}
+[7.356386] (-) TimerEvent: {}
+[7.449919] (smartcart_controller) StdoutLine: {'line': b'Removing /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart-controller.egg-link (link to .)\n'}
+[7.456661] (-) TimerEvent: {}
+[7.558505] (-) TimerEvent: {}
+[7.623769] (smartcart_controller) CommandEnded: {'returncode': 0}
+[7.628002] (smartcart_controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/smartcart_controller', 'build', '--build-base', '/home/ed/ros2_ws/build/smartcart_controller/build', 'install', '--record', '/home/ed/ros2_ws/build/smartcart_controller/install.log', '--single-version-externally-managed'], 'cwd': '/home/ed/ros2_ws/src/smartcart_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ed', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ed', 'OLDPWD': '/home/ed/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1238', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ed/ros2_ws/src/install:/home/ed/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ed', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ed', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ed-desktop:@/tmp/.ICE-unix/1201,unix/ed-desktop:/tmp/.ICE-unix/1201', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a08a764f_5dc9_455b_9561_de716252f818', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.0PMXI2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.130', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ed/ros2_ws/src/install/smartcart_controller:/home/ed/ros2_ws/install/smartcart_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ed/ros2_ws/build/smartcart_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ed/ros2_ws/build/smartcart_controller/prefix_override:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/src/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/build/smartcart_controller:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[7.658888] (-) TimerEvent: {}
+[7.759687] (-) TimerEvent: {}
+[7.840342] (v4l2_camera) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.859848] (-) TimerEvent: {}
+[7.960967] (-) TimerEvent: {}
+[8.061655] (-) TimerEvent: {}
+[8.115333] (v4l2_camera) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.161822] (-) TimerEvent: {}
+[8.262790] (-) TimerEvent: {}
+[8.364180] (-) TimerEvent: {}
+[8.464976] (-) TimerEvent: {}
+[8.565710] (-) TimerEvent: {}
+[8.572141] (v4l2_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.659674] (v4l2_camera) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.665928] (-) TimerEvent: {}
+[8.767106] (-) TimerEvent: {}
+[8.868637] (-) TimerEvent: {}
+[8.971502] (-) TimerEvent: {}
+[9.032919] (v4l2_camera) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.034336] (v4l2_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.045903] (smartcart_controller) StdoutLine: {'line': b'running egg_info\n'}
+[9.049559] (smartcart_controller) StdoutLine: {'line': b'writing ../../build/smartcart_controller/smartcart_controller.egg-info/PKG-INFO\n'}
+[9.052657] (smartcart_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/smartcart_controller/smartcart_controller.egg-info/dependency_links.txt\n'}
+[9.053812] (smartcart_controller) StdoutLine: {'line': b'writing entry points to ../../build/smartcart_controller/smartcart_controller.egg-info/entry_points.txt\n'}
+[9.054290] (smartcart_controller) StdoutLine: {'line': b'writing requirements to ../../build/smartcart_controller/smartcart_controller.egg-info/requires.txt\n'}
+[9.054714] (smartcart_controller) StdoutLine: {'line': b'writing top-level names to ../../build/smartcart_controller/smartcart_controller.egg-info/top_level.txt\n'}
+[9.062974] (smartcart_controller) StdoutLine: {'line': b"reading manifest file '../../build/smartcart_controller/smartcart_controller.egg-info/SOURCES.txt'\n"}
+[9.069376] (smartcart_controller) StdoutLine: {'line': b"writing manifest file '../../build/smartcart_controller/smartcart_controller.egg-info/SOURCES.txt'\n"}
+[9.070148] (smartcart_controller) StdoutLine: {'line': b'running build\n'}
+[9.070643] (-) TimerEvent: {}
+[9.071376] (smartcart_controller) StdoutLine: {'line': b'running build_py\n'}
+[9.073934] (smartcart_controller) StdoutLine: {'line': b'copying smartcart_controller/my_first_node.py -> /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller\n'}
+[9.075261] (smartcart_controller) StdoutLine: {'line': b'running install\n'}
+[9.076814] (smartcart_controller) StdoutLine: {'line': b'running install_lib\n'}
+[9.081193] (smartcart_controller) StdoutLine: {'line': b'creating /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[9.081927] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/__init__.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[9.082854] (smartcart_controller) StdoutLine: {'line': b'copying /home/ed/ros2_ws/build/smartcart_controller/build/lib/smartcart_controller/my_first_node.py -> /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller\n'}
+[9.085811] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[9.087479] (smartcart_controller) StdoutLine: {'line': b'byte-compiling /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller/my_first_node.py to my_first_node.cpython-310.pyc\n'}
+[9.089965] (smartcart_controller) StdoutLine: {'line': b'running install_data\n'}
+[9.093375] (smartcart_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.104179] (smartcart_controller) StdoutLine: {'line': b'Copying ../../build/smartcart_controller/smartcart_controller.egg-info to /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart_controller-0.0.0-py3.10.egg-info\n'}
+[9.114680] (smartcart_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[9.170883] (-) TimerEvent: {}
+[9.217837] (smartcart_controller) StdoutLine: {'line': b'Installing test_node script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller\n'}
+[9.221175] (smartcart_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ed/ros2_ws/build/smartcart_controller/install.log'\n"}
+[9.271203] (-) TimerEvent: {}
+[9.373089] (smartcart_controller) CommandEnded: {'returncode': 0}
+[9.375245] (-) TimerEvent: {}
+[9.455118] (v4l2_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.459254] (v4l2_camera) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.475386] (-) TimerEvent: {}
+[9.576909] (-) TimerEvent: {}
+[9.678250] (-) TimerEvent: {}
+[9.712771] (smartcart_controller) JobEnded: {'identifier': 'smartcart_controller', 'rc': 0}
+[9.778454] (-) TimerEvent: {}
+[9.879155] (-) TimerEvent: {}
+[9.979881] (-) TimerEvent: {}
+[10.080763] (-) TimerEvent: {}
+[10.178246] (v4l2_camera) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[10.180971] (-) TimerEvent: {}
+[10.281837] (-) TimerEvent: {}
+[10.382519] (-) TimerEvent: {}
+[10.483236] (-) TimerEvent: {}
+[10.554266] (v4l2_camera) StdoutLine: {'line': b'-- Found image_transport: 3.1.8 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[10.583560] (-) TimerEvent: {}
+[10.684614] (-) TimerEvent: {}
+[10.785447] (-) TimerEvent: {}
+[10.886181] (-) TimerEvent: {}
+[10.986878] (-) TimerEvent: {}
+[11.087701] (-) TimerEvent: {}
+[11.188437] (-) TimerEvent: {}
+[11.289338] (-) TimerEvent: {}
+[11.390030] (-) TimerEvent: {}
+[11.403226] (v4l2_camera) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.8 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[11.490207] (-) TimerEvent: {}
+[11.590893] (-) TimerEvent: {}
+[11.636251] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.691070] (-) TimerEvent: {}
+[11.791813] (-) TimerEvent: {}
+[11.892970] (-) TimerEvent: {}
+[11.994201] (-) TimerEvent: {}
+[12.094907] (-) TimerEvent: {}
+[12.168528] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.169299] (v4l2_camera) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ed/ros2_ws/src/ros2_v4l2_camera/include>\n'}
+[12.169709] (v4l2_camera) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.195119] (-) TimerEvent: {}
+[12.204740] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[12.205334] (v4l2_camera) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[12.219510] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.259313] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.259912] (v4l2_camera) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.265745] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.286603] (v4l2_camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.295285] (-) TimerEvent: {}
+[12.395980] (-) TimerEvent: {}
+[12.400644] (v4l2_camera) StdoutLine: {'line': b'-- Generating done\n'}
+[12.409188] (v4l2_camera) StdoutLine: {'line': b'-- Build files have been written to: /home/ed/ros2_ws/build/v4l2_camera\n'}
+[12.461519] (v4l2_camera) CommandEnded: {'returncode': 0}
+[12.463571] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'build'}
+[12.466405] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ed/ros2_ws/build/v4l2_camera', '--', '-j4', '-l4'], 'cwd': '/home/ed/ros2_ws/build/v4l2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ed'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ed'), ('OLDPWD', '/home/ed/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1238'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ed/ros2_ws/src/install:/home/ed/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ed'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ed'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ed-desktop:@/tmp/.ICE-unix/1201,unix/ed-desktop:/tmp/.ICE-unix/1201'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a08a764f_5dc9_455b_9561_de716252f818'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0PMXI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ed/ros2_ws/src/install/smartcart_controller:/home/ed/ros2_ws/install/smartcart_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ed/ros2_ws/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ed/ros2_ws/src/install/smartcart_controller/lib/python3.10/site-packages:/home/ed/ros2_ws/build/smartcart_controller:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ed/ros2_ws/src/install/smartcart_controller:/home/ed/ros2_ws/install/smartcart_controller:/opt/ros/humble')]), 'shell': False}
+[12.496201] (-) TimerEvent: {}
+[12.596938] (-) TimerEvent: {}
+[12.698156] (-) TimerEvent: {}
+[12.717433] (v4l2_camera) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o\x1b[0m\n'}
+[12.723371] (v4l2_camera) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o\x1b[0m\n'}
+[12.798373] (-) TimerEvent: {}
+[12.899357] (-) TimerEvent: {}
+[13.000097] (-) TimerEvent: {}
+[13.100792] (-) TimerEvent: {}
+[13.201545] (-) TimerEvent: {}
+[13.302329] (-) TimerEvent: {}
+[13.403288] (-) TimerEvent: {}
+[13.504108] (-) TimerEvent: {}
+[13.604805] (-) TimerEvent: {}
+[13.705511] (-) TimerEvent: {}
+[13.806227] (-) TimerEvent: {}
+[13.906942] (-) TimerEvent: {}
+[14.007908] (-) TimerEvent: {}
+[14.108655] (-) TimerEvent: {}
+[14.209416] (-) TimerEvent: {}
+[14.310190] (-) TimerEvent: {}
+[14.410918] (-) TimerEvent: {}
+[14.511912] (-) TimerEvent: {}
+[14.612648] (-) TimerEvent: {}
+[14.713507] (-) TimerEvent: {}
+[14.814366] (-) TimerEvent: {}
+[14.915430] (-) TimerEvent: {}
+[15.016349] (-) TimerEvent: {}
+[15.117182] (-) TimerEvent: {}
+[15.218107] (-) TimerEvent: {}
+[15.319498] (-) TimerEvent: {}
+[15.420425] (-) TimerEvent: {}
+[15.521400] (-) TimerEvent: {}
+[15.622673] (-) TimerEvent: {}
+[15.723850] (-) TimerEvent: {}
+[15.824658] (-) TimerEvent: {}
+[15.925631] (-) TimerEvent: {}
+[16.026453] (-) TimerEvent: {}
+[16.127314] (-) TimerEvent: {}
+[16.231815] (-) TimerEvent: {}
+[16.333066] (-) TimerEvent: {}
+[16.434074] (-) TimerEvent: {}
+[16.535216] (-) TimerEvent: {}
+[16.636333] (-) TimerEvent: {}
+[16.737711] (-) TimerEvent: {}
+[16.839737] (-) TimerEvent: {}
+[16.940623] (-) TimerEvent: {}
+[17.041643] (-) TimerEvent: {}
+[17.142497] (-) TimerEvent: {}
+[17.243411] (-) TimerEvent: {}
+[17.344349] (-) TimerEvent: {}
+[17.445302] (-) TimerEvent: {}
+[17.546165] (-) TimerEvent: {}
+[17.647032] (-) TimerEvent: {}
+[17.748057] (-) TimerEvent: {}
+[17.849283] (-) TimerEvent: {}
+[17.950342] (-) TimerEvent: {}
+[18.051243] (-) TimerEvent: {}
+[18.152511] (-) TimerEvent: {}
+[18.253616] (-) TimerEvent: {}
+[18.354667] (-) TimerEvent: {}
+[18.455815] (-) TimerEvent: {}
+[18.556741] (-) TimerEvent: {}
+[18.657619] (-) TimerEvent: {}
+[18.758467] (-) TimerEvent: {}
+[18.859463] (-) TimerEvent: {}
+[18.960362] (-) TimerEvent: {}
+[19.061224] (-) TimerEvent: {}
+[19.162091] (-) TimerEvent: {}
+[19.263151] (-) TimerEvent: {}
+[19.364091] (-) TimerEvent: {}
+[19.464965] (-) TimerEvent: {}
+[19.565814] (-) TimerEvent: {}
+[19.668385] (-) TimerEvent: {}
+[19.769545] (-) TimerEvent: {}
+[19.870427] (-) TimerEvent: {}
+[19.971488] (-) TimerEvent: {}
+[20.072390] (-) TimerEvent: {}
+[20.173517] (-) TimerEvent: {}
+[20.274449] (-) TimerEvent: {}
+[20.375534] (-) TimerEvent: {}
+[20.476670] (-) TimerEvent: {}
+[20.577556] (-) TimerEvent: {}
+[20.678441] (-) TimerEvent: {}
+[20.779297] (-) TimerEvent: {}
+[20.880505] (-) TimerEvent: {}
+[20.981382] (-) TimerEvent: {}
+[21.082262] (-) TimerEvent: {}
+[21.183132] (-) TimerEvent: {}
+[21.284301] (-) TimerEvent: {}
+[21.385159] (-) TimerEvent: {}
+[21.486016] (-) TimerEvent: {}
+[21.586907] (-) TimerEvent: {}
+[21.687811] (-) TimerEvent: {}
+[21.788638] (-) TimerEvent: {}
+[21.889478] (-) TimerEvent: {}
+[21.990636] (-) TimerEvent: {}
+[22.091805] (-) TimerEvent: {}
+[22.192693] (-) TimerEvent: {}
+[22.294469] (-) TimerEvent: {}
+[22.395699] (-) TimerEvent: {}
+[22.496580] (-) TimerEvent: {}
+[22.597476] (-) TimerEvent: {}
+[22.698555] (-) TimerEvent: {}
+[22.799509] (-) TimerEvent: {}
+[22.900470] (-) TimerEvent: {}
+[23.001709] (-) TimerEvent: {}
+[23.102638] (-) TimerEvent: {}
+[23.203720] (-) TimerEvent: {}
+[23.304869] (-) TimerEvent: {}
+[23.405913] (-) TimerEvent: {}
+[23.506792] (-) TimerEvent: {}
+[23.607816] (-) TimerEvent: {}
+[23.709020] (-) TimerEvent: {}
+[23.810045] (-) TimerEvent: {}
+[23.910945] (-) TimerEvent: {}
+[24.012038] (-) TimerEvent: {}
+[24.112933] (-) TimerEvent: {}
+[24.213966] (-) TimerEvent: {}
+[24.314981] (-) TimerEvent: {}
+[24.416304] (-) TimerEvent: {}
+[24.517177] (-) TimerEvent: {}
+[24.618903] (-) TimerEvent: {}
+[24.719829] (-) TimerEvent: {}
+[24.820732] (-) TimerEvent: {}
+[24.921613] (-) TimerEvent: {}
+[25.022697] (-) TimerEvent: {}
+[25.123714] (-) TimerEvent: {}
+[25.224603] (-) TimerEvent: {}
+[25.325516] (-) TimerEvent: {}
+[25.426423] (-) TimerEvent: {}
+[25.527411] (-) TimerEvent: {}
+[25.628543] (-) TimerEvent: {}
+[25.729627] (-) TimerEvent: {}
+[25.830484] (-) TimerEvent: {}
+[25.931366] (-) TimerEvent: {}
+[26.032326] (-) TimerEvent: {}
+[26.134391] (-) TimerEvent: {}
+[26.156693] (v4l2_camera) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[26.157780] (v4l2_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[26.158541] (v4l2_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[26.159259] (v4l2_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40\x1b[m\x1b[K,\n'}
+[26.160766] (v4l2_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:45\x1b[m\x1b[K,\n'}
+[26.162770] (v4l2_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ed/ros2_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera.hpp:20\x1b[m\x1b[K,\n'}
+[26.163519] (v4l2_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:15\x1b[m\x1b[K:\n'}
+[26.164786] (v4l2_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool v4l2_camera::V4L2Camera::requestImageSize(const std::vector<long int, std::allocator<long int> >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.165692] (v4l2_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:365:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<long int, std::allocator<long int> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Werror=format=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.166568] (v4l2_camera) StderrLine: {'line': b'  365 |       \x1b[01;31m\x1b[K"Invalid image size; expected dimensions: 2, actual: %d"\x1b[m\x1b[K,\n'}
+[26.172395] (v4l2_camera) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.172990] (v4l2_camera) StderrLine: {'line': b'  366 |       \x1b[32m\x1b[Ksize.size()\x1b[m\x1b[K);\n'}
+[26.173559] (v4l2_camera) StderrLine: {'line': b'      |       \x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.174092] (v4l2_camera) StderrLine: {'line': b'      |                \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[26.174835] (v4l2_camera) StderrLine: {'line': b'      |                \x1b[32m\x1b[Kstd::vector<long int, std::allocator<long int> >::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[26.175383] (v4l2_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:365:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[26.175977] (v4l2_camera) StderrLine: {'line': b'  365 |       "Invalid image size; expected dimensions: 2, actual: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K",\n'}
+[26.176506] (v4l2_camera) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[26.176998] (v4l2_camera) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[26.177510] (v4l2_camera) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[26.178038] (v4l2_camera) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[26.178562] (v4l2_camera) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[26.179129] (v4l2_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[26.180710] (v4l2_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[26.181379] (v4l2_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40\x1b[m\x1b[K,\n'}
+[26.181930] (v4l2_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp:45\x1b[m\x1b[K,\n'}
+[26.182496] (v4l2_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ed/ros2_ws/src/ros2_v4l2_camera/include/v4l2_camera/v4l2_camera.hpp:20\x1b[m\x1b[K,\n'}
+[26.183134] (v4l2_camera) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:15\x1b[m\x1b[K:\n'}
+[26.183739] (v4l2_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool v4l2_camera::V4L2Camera::requestTimePerFrame(const TimePerFrame&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.184353] (v4l2_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:386:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<long int, std::allocator<long int> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Werror=format=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.185184] (v4l2_camera) StderrLine: {'line': b'  386 |       \x1b[01;31m\x1b[K"Invalid time per frame; expected dimensions: 2, actual: %d"\x1b[m\x1b[K,\n'}
+[26.185821] (v4l2_camera) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.186473] (v4l2_camera) StderrLine: {'line': b'  387 |       \x1b[32m\x1b[Ktpf.size()\x1b[m\x1b[K);\n'}
+[26.187048] (v4l2_camera) StderrLine: {'line': b'      |       \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[26.187631] (v4l2_camera) StderrLine: {'line': b'      |               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[26.188212] (v4l2_camera) StderrLine: {'line': b'      |               \x1b[32m\x1b[Kstd::vector<long int, std::allocator<long int> >::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[26.188835] (v4l2_camera) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ed/ros2_ws/src/ros2_v4l2_camera/src/v4l2_camera.cpp:386:65:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[26.189597] (v4l2_camera) StderrLine: {'line': b'  386 |       "Invalid time per frame; expected dimensions: 2, actual: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K",\n'}
+[26.190128] (v4l2_camera) StderrLine: {'line': b'      |                                                                \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[26.190666] (v4l2_camera) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[26.191196] (v4l2_camera) StderrLine: {'line': b'      |                                                                 \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[26.191848] (v4l2_camera) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[26.234654] (-) TimerEvent: {}
+[26.335515] (-) TimerEvent: {}
+[26.436770] (-) TimerEvent: {}
+[26.537661] (-) TimerEvent: {}
+[26.638593] (-) TimerEvent: {}
+[26.739664] (-) TimerEvent: {}
+[26.840746] (-) TimerEvent: {}
+[26.941630] (-) TimerEvent: {}
+[27.043066] (-) TimerEvent: {}
+[27.144369] (-) TimerEvent: {}
+[27.245224] (-) TimerEvent: {}
+[27.346064] (-) TimerEvent: {}
+[27.447091] (-) TimerEvent: {}
+[27.547985] (-) TimerEvent: {}
+[27.648833] (-) TimerEvent: {}
+[27.749700] (-) TimerEvent: {}
+[27.850778] (-) TimerEvent: {}
+[27.951681] (-) TimerEvent: {}
+[28.052543] (-) TimerEvent: {}
+[28.153498] (-) TimerEvent: {}
+[28.254695] (-) TimerEvent: {}
+[28.356537] (-) TimerEvent: {}
+[28.458223] (-) TimerEvent: {}
+[28.559167] (-) TimerEvent: {}
+[28.660208] (-) TimerEvent: {}
+[28.761313] (-) TimerEvent: {}
+[28.862183] (-) TimerEvent: {}
+[28.963070] (-) TimerEvent: {}
+[29.064015] (-) TimerEvent: {}
+[29.165343] (-) TimerEvent: {}
+[29.266328] (-) TimerEvent: {}
+[29.367320] (-) TimerEvent: {}
+[29.468360] (-) TimerEvent: {}
+[29.570630] (-) TimerEvent: {}
+[29.671675] (-) TimerEvent: {}
+[29.772771] (-) TimerEvent: {}
+[29.874201] (-) TimerEvent: {}
+[29.975128] (-) TimerEvent: {}
+[30.076148] (-) TimerEvent: {}
+[30.177038] (-) TimerEvent: {}
+[30.278128] (-) TimerEvent: {}
+[30.379027] (-) TimerEvent: {}
+[30.479904] (-) TimerEvent: {}
+[30.580771] (-) TimerEvent: {}
+[30.681758] (-) TimerEvent: {}
+[30.782692] (-) TimerEvent: {}
+[30.883697] (-) TimerEvent: {}
+[30.984531] (-) TimerEvent: {}
+[31.085565] (-) TimerEvent: {}
+[31.186539] (-) TimerEvent: {}
+[31.287465] (-) TimerEvent: {}
+[31.388542] (-) TimerEvent: {}
+[31.489319] (-) TimerEvent: {}
+[31.590095] (-) TimerEvent: {}
+[31.690844] (-) TimerEvent: {}
+[31.791572] (-) TimerEvent: {}
+[31.892471] (-) TimerEvent: {}
+[31.993227] (-) TimerEvent: {}
+[32.094012] (-) TimerEvent: {}
+[32.194786] (-) TimerEvent: {}
+[32.295665] (-) TimerEvent: {}
+[32.396758] (-) TimerEvent: {}
+[32.497540] (-) TimerEvent: {}
+[32.598355] (-) TimerEvent: {}
+[32.699135] (-) TimerEvent: {}
+[32.799946] (-) TimerEvent: {}
+[32.901285] (-) TimerEvent: {}
+[33.002929] (-) TimerEvent: {}
+[33.104058] (-) TimerEvent: {}
+[33.204819] (-) TimerEvent: {}
+[33.305552] (-) TimerEvent: {}
+[33.406372] (-) TimerEvent: {}
+[33.507483] (-) TimerEvent: {}
+[33.608432] (-) TimerEvent: {}
+[33.709228] (-) TimerEvent: {}
+[33.810016] (-) TimerEvent: {}
+[33.910755] (-) TimerEvent: {}
+[34.011768] (-) TimerEvent: {}
+[34.112512] (-) TimerEvent: {}
+[34.213306] (-) TimerEvent: {}
+[34.314044] (-) TimerEvent: {}
+[34.414827] (-) TimerEvent: {}
+[34.515761] (-) TimerEvent: {}
+[34.616551] (-) TimerEvent: {}
+[34.717403] (-) TimerEvent: {}
+[34.818216] (-) TimerEvent: {}
+[34.919258] (-) TimerEvent: {}
+[35.020084] (-) TimerEvent: {}
+[35.120869] (-) TimerEvent: {}
+[35.221659] (-) TimerEvent: {}
+[35.322490] (-) TimerEvent: {}
+[35.423345] (-) TimerEvent: {}
+[35.524219] (-) TimerEvent: {}
+[35.625074] (-) TimerEvent: {}
+[35.725971] (-) TimerEvent: {}
+[35.826983] (-) TimerEvent: {}
+[35.927795] (-) TimerEvent: {}
+[36.028577] (-) TimerEvent: {}
+[36.129392] (-) TimerEvent: {}
+[36.230128] (-) TimerEvent: {}
+[36.331174] (-) TimerEvent: {}
+[36.431989] (-) TimerEvent: {}
+[36.532868] (-) TimerEvent: {}
+[36.633711] (-) TimerEvent: {}
+[36.734703] (-) TimerEvent: {}
+[36.835471] (-) TimerEvent: {}
+[36.936284] (-) TimerEvent: {}
+[37.037056] (-) TimerEvent: {}
+[37.137791] (-) TimerEvent: {}
+[37.238763] (-) TimerEvent: {}
+[37.339528] (-) TimerEvent: {}
+[37.440328] (-) TimerEvent: {}
+[37.541072] (-) TimerEvent: {}
+[37.641845] (-) TimerEvent: {}
+[37.742775] (-) TimerEvent: {}
+[37.843568] (-) TimerEvent: {}
+[37.944362] (-) TimerEvent: {}
+[38.045208] (-) TimerEvent: {}
+[38.145981] (-) TimerEvent: {}
+[38.246795] (-) TimerEvent: {}
+[38.347572] (-) TimerEvent: {}
+[38.448397] (-) TimerEvent: {}
+[38.549135] (-) TimerEvent: {}
+[38.649912] (-) TimerEvent: {}
+[38.750894] (-) TimerEvent: {}
+[38.758624] (v4l2_camera) StderrLine: {'line': b'cc1plus: all warnings being treated as errors\n'}
+[38.851052] (-) TimerEvent: {}
+[38.945575] (v4l2_camera) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/v4l2_camera.dir/build.make:76: CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o] Error 1\n'}
+[38.947084] (v4l2_camera) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/v4l2_camera.dir/all] Error 2\n'}
+[38.948692] (v4l2_camera) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[38.951422] (-) TimerEvent: {}
+[38.958150] (v4l2_camera) CommandEnded: {'returncode': 2}
+[39.051573] (-) TimerEvent: {}
+[39.152739] (-) TimerEvent: {}
+[39.254099] (-) TimerEvent: {}
+[39.355165] (-) TimerEvent: {}
+[39.377858] (v4l2_camera) JobEnded: {'identifier': 'v4l2_camera', 'rc': 2}
+[39.391911] (-) EventReactorShutdown: {}

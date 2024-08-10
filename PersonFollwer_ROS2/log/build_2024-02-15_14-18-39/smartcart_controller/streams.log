@@ -1,0 +1,17 @@
+[4.454s] Invoking command in '/home/ed/ros2_ws/build/smartcart_controller': PYTHONPATH=/home/ed/ros2_ws/build/smartcart_controller/prefix_override:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ed/ros2_ws/build/smartcart_controller/build --no-deps install_data
+[5.938s] running develop
+[6.877s] running egg_info
+[6.877s] writing smartcart_controller.egg-info/PKG-INFO
+[6.879s] writing dependency_links to smartcart_controller.egg-info/dependency_links.txt
+[6.881s] writing entry points to smartcart_controller.egg-info/entry_points.txt
+[6.882s] writing requirements to smartcart_controller.egg-info/requires.txt
+[6.883s] writing top-level names to smartcart_controller.egg-info/top_level.txt
+[6.894s] reading manifest file 'smartcart_controller.egg-info/SOURCES.txt'
+[6.899s] writing manifest file 'smartcart_controller.egg-info/SOURCES.txt'
+[6.905s] running build_ext
+[6.906s] Creating /home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages/smartcart-controller.egg-link (link to .)
+[6.910s] Installing test_node script to /home/ed/ros2_ws/install/smartcart_controller/lib/smartcart_controller
+[6.912s] 
+[6.912s] Installed /home/ed/ros2_ws/build/smartcart_controller
+[6.913s] running install_data
+[7.080s] Invoked command in '/home/ed/ros2_ws/build/smartcart_controller' returned '0': PYTHONPATH=/home/ed/ros2_ws/build/smartcart_controller/prefix_override:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ed/ros2_ws/build/smartcart_controller/build --no-deps install_data

@@ -1,0 +1,220 @@
+[5.028s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[5.028s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb948f820>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb97080d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb97080d0>>)
+[5.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.258s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.258s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ed/ros2_ws'
+[5.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.260s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.307s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.307s] Level 1:colcon.colcon_core.package_identification:_identify(Sample_TFLite_model) by extensions ['ignore', 'ignore_ament_install']
+[5.308s] Level 1:colcon.colcon_core.package_identification:_identify(Sample_TFLite_model) by extension 'ignore'
+[5.308s] Level 1:colcon.colcon_core.package_identification:_identify(Sample_TFLite_model) by extension 'ignore_ament_install'
+[5.308s] Level 1:colcon.colcon_core.package_identification:_identify(Sample_TFLite_model) by extensions ['colcon_pkg']
+[5.308s] Level 1:colcon.colcon_core.package_identification:_identify(Sample_TFLite_model) by extension 'colcon_pkg'
+[5.308s] Level 1:colcon.colcon_core.package_identification:_identify(Sample_TFLite_model) by extensions ['colcon_meta']
+[5.309s] Level 1:colcon.colcon_core.package_identification:_identify(Sample_TFLite_model) by extension 'colcon_meta'
+[5.309s] Level 1:colcon.colcon_core.package_identification:_identify(Sample_TFLite_model) by extensions ['ros']
+[5.309s] Level 1:colcon.colcon_core.package_identification:_identify(Sample_TFLite_model) by extension 'ros'
+[5.309s] Level 1:colcon.colcon_core.package_identification:_identify(Sample_TFLite_model) by extensions ['cmake', 'python']
+[5.309s] Level 1:colcon.colcon_core.package_identification:_identify(Sample_TFLite_model) by extension 'cmake'
+[5.310s] Level 1:colcon.colcon_core.package_identification:_identify(Sample_TFLite_model) by extension 'python'
+[5.310s] Level 1:colcon.colcon_core.package_identification:_identify(Sample_TFLite_model) by extensions ['python_setup_py']
+[5.310s] Level 1:colcon.colcon_core.package_identification:_identify(Sample_TFLite_model) by extension 'python_setup_py'
+[5.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.311s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.311s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.311s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.312s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[5.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[5.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[5.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[5.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[5.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[5.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[5.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[5.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[5.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['ignore', 'ignore_ament_install']
+[5.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'ignore'
+[5.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'ignore_ament_install'
+[5.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['colcon_pkg']
+[5.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'colcon_pkg'
+[5.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['colcon_meta']
+[5.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'colcon_meta'
+[5.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extensions ['ros']
+[5.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/opencv_tools) by extension 'ros'
+[5.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/opencv_tools' with type 'ros.ament_python' and name 'opencv_tools'
+[5.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcart_controller) by extensions ['ignore', 'ignore_ament_install']
+[5.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcart_controller) by extension 'ignore'
+[5.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcart_controller) by extension 'ignore_ament_install'
+[5.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcart_controller) by extensions ['colcon_pkg']
+[5.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcart_controller) by extension 'colcon_pkg'
+[5.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcart_controller) by extensions ['colcon_meta']
+[5.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcart_controller) by extension 'colcon_meta'
+[5.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcart_controller) by extensions ['ros']
+[5.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/smartcart_controller) by extension 'ros'
+[5.340s] DEBUG:colcon.colcon_core.package_identification:Package 'src/smartcart_controller' with type 'ros.ament_python' and name 'smartcart_controller'
+[5.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['ignore', 'ignore_ament_install']
+[5.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ignore'
+[5.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ignore_ament_install'
+[5.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['colcon_pkg']
+[5.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'colcon_pkg'
+[5.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['colcon_meta']
+[5.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'colcon_meta'
+[5.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['ros']
+[5.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'ros'
+[5.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['cmake', 'python']
+[5.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'cmake'
+[5.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'python'
+[5.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extensions ['python_setup_py']
+[5.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/test) by extension 'python_setup_py'
+[5.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.780s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.927s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ed/ros2_workspace/install
+[5.998s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ed/ros2_ws/install
+[6.110s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/ed/ros2_ws/src/install
+[6.187s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[6.193s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.615s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_args' from command line to 'None'
+[6.615s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_target' from command line to 'None'
+[6.615s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.616s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[6.616s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_clean_first' from command line to 'False'
+[6.616s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'cmake_force_configure' from command line to 'False'
+[6.616s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'ament_cmake_args' from command line to 'None'
+[6.616s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[6.616s] Level 5:colcon.colcon_core.verb:set package 'opencv_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.616s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ed/ros2_ws/build/opencv_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ed/ros2_ws/install/opencv_tools', 'merge_install': False, 'path': '/home/ed/ros2_ws/src/opencv_tools', 'symlink_install': False, 'test_result_base': None}
+[6.690s] Level 5:colcon.colcon_core.verb:set package 'smartcart_controller' build argument 'cmake_args' from command line to 'None'
+[6.690s] Level 5:colcon.colcon_core.verb:set package 'smartcart_controller' build argument 'cmake_target' from command line to 'None'
+[6.690s] Level 5:colcon.colcon_core.verb:set package 'smartcart_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.690s] Level 5:colcon.colcon_core.verb:set package 'smartcart_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[6.690s] Level 5:colcon.colcon_core.verb:set package 'smartcart_controller' build argument 'cmake_clean_first' from command line to 'False'
+[6.690s] Level 5:colcon.colcon_core.verb:set package 'smartcart_controller' build argument 'cmake_force_configure' from command line to 'False'
+[6.691s] Level 5:colcon.colcon_core.verb:set package 'smartcart_controller' build argument 'ament_cmake_args' from command line to 'None'
+[6.691s] Level 5:colcon.colcon_core.verb:set package 'smartcart_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[6.691s] Level 5:colcon.colcon_core.verb:set package 'smartcart_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.691s] DEBUG:colcon.colcon_core.verb:Building package 'smartcart_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ed/ros2_ws/build/smartcart_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ed/ros2_ws/install/smartcart_controller', 'merge_install': False, 'path': '/home/ed/ros2_ws/src/smartcart_controller', 'symlink_install': False, 'test_result_base': None}
+[6.761s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[6.832s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[6.833s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ed/ros2_ws/src/opencv_tools' with build type 'ament_python'
+[6.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tools', 'ament_prefix_path')
+[6.927s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[6.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ed/ros2_ws/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.ps1'
+[6.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ed/ros2_ws/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.dsv'
+[6.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ed/ros2_ws/install/opencv_tools/share/opencv_tools/hook/ament_prefix_path.sh'
+[7.016s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.016s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.414s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ed/ros2_ws/src/smartcart_controller' with build type 'ament_python'
+[7.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('smartcart_controller', 'ament_prefix_path')
+[7.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ed/ros2_ws/install/smartcart_controller/share/smartcart_controller/hook/ament_prefix_path.ps1'
+[7.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ed/ros2_ws/install/smartcart_controller/share/smartcart_controller/hook/ament_prefix_path.dsv'
+[7.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ed/ros2_ws/install/smartcart_controller/share/smartcart_controller/hook/ament_prefix_path.sh'
+[7.587s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.587s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.385s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ed/ros2_ws/src/opencv_tools'
+[9.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.244s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ed/ros2_ws/src/smartcart_controller'
+[11.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ed/ros2_ws/build/opencv_tools': PYTHONPATH=/home/ed/ros2_ws/build/opencv_tools/prefix_override:/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ed/ros2_ws/build/opencv_tools/build
+[13.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ed/ros2_ws/build/smartcart_controller': PYTHONPATH=/home/ed/ros2_ws/build/smartcart_controller/prefix_override:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ed/ros2_ws/build/smartcart_controller/build
+[16.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ed/ros2_ws/build/smartcart_controller' returned '0': PYTHONPATH=/home/ed/ros2_ws/build/smartcart_controller/prefix_override:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ed/ros2_ws/build/smartcart_controller/build
+[16.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ed/ros2_ws/src/smartcart_controller': PYTHONPATH=/home/ed/ros2_ws/build/smartcart_controller/prefix_override:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/smartcart_controller build --build-base /home/ed/ros2_ws/build/smartcart_controller/build install --record /home/ed/ros2_ws/build/smartcart_controller/install.log --single-version-externally-managed
+[16.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ed/ros2_ws/build/opencv_tools' returned '0': PYTHONPATH=/home/ed/ros2_ws/build/opencv_tools/prefix_override:/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ed/ros2_ws/build/opencv_tools/build
+[16.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ed/ros2_ws/src/opencv_tools': PYTHONPATH=/home/ed/ros2_ws/build/opencv_tools/prefix_override:/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/ed/ros2_ws/build/opencv_tools/build install --record /home/ed/ros2_ws/build/opencv_tools/install.log --single-version-externally-managed
+[18.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ed/ros2_ws/src/smartcart_controller' returned '0': PYTHONPATH=/home/ed/ros2_ws/build/smartcart_controller/prefix_override:/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/smartcart_controller build --build-base /home/ed/ros2_ws/build/smartcart_controller/build install --record /home/ed/ros2_ws/build/smartcart_controller/install.log --single-version-externally-managed
+[18.914s] Level 1:colcon.colcon_core.environment:checking '/home/ed/ros2_ws/install/smartcart_controller' for CMake module files
+[18.917s] Level 1:colcon.colcon_core.environment:checking '/home/ed/ros2_ws/install/smartcart_controller' for CMake config files
+[18.922s] Level 1:colcon.colcon_core.environment:checking '/home/ed/ros2_ws/install/smartcart_controller/lib'
+[18.923s] Level 1:colcon.colcon_core.environment:checking '/home/ed/ros2_ws/install/smartcart_controller/bin'
+[18.924s] Level 1:colcon.colcon_core.environment:checking '/home/ed/ros2_ws/install/smartcart_controller/lib/pkgconfig/smartcart_controller.pc'
+[18.925s] Level 1:colcon.colcon_core.environment:checking '/home/ed/ros2_ws/install/smartcart_controller/lib/python3.10/site-packages'
+[18.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('smartcart_controller', 'pythonpath')
+[18.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ed/ros2_ws/install/smartcart_controller/share/smartcart_controller/hook/pythonpath.ps1'
+[19.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ed/ros2_ws/install/smartcart_controller/share/smartcart_controller/hook/pythonpath.dsv'
+[19.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ed/ros2_ws/install/smartcart_controller/share/smartcart_controller/hook/pythonpath.sh'
+[19.006s] Level 1:colcon.colcon_core.environment:checking '/home/ed/ros2_ws/install/smartcart_controller/bin'
+[19.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smartcart_controller)
+[19.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/ed/ros2_ws/install/smartcart_controller/share/smartcart_controller/package.ps1'
+[19.119s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ed/ros2_ws/install/smartcart_controller/share/smartcart_controller/package.dsv'
+[19.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/ed/ros2_ws/install/smartcart_controller/share/smartcart_controller/package.sh'
+[19.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/ed/ros2_ws/install/smartcart_controller/share/smartcart_controller/package.bash'
+[19.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/ed/ros2_ws/install/smartcart_controller/share/smartcart_controller/package.zsh'
+[19.131s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ed/ros2_ws/install/smartcart_controller/share/colcon-core/packages/smartcart_controller)
+[19.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ed/ros2_ws/src/opencv_tools' returned '0': PYTHONPATH=/home/ed/ros2_ws/build/opencv_tools/prefix_override:/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/ed/ros2_ws/build/opencv_tools/build install --record /home/ed/ros2_ws/build/opencv_tools/install.log --single-version-externally-managed
+[19.225s] Level 1:colcon.colcon_core.environment:checking '/home/ed/ros2_ws/install/opencv_tools' for CMake module files
+[19.228s] Level 1:colcon.colcon_core.environment:checking '/home/ed/ros2_ws/install/opencv_tools' for CMake config files
+[19.231s] Level 1:colcon.colcon_core.environment:checking '/home/ed/ros2_ws/install/opencv_tools/lib'
+[19.232s] Level 1:colcon.colcon_core.environment:checking '/home/ed/ros2_ws/install/opencv_tools/bin'
+[19.232s] Level 1:colcon.colcon_core.environment:checking '/home/ed/ros2_ws/install/opencv_tools/lib/pkgconfig/opencv_tools.pc'
+[19.233s] Level 1:colcon.colcon_core.environment:checking '/home/ed/ros2_ws/install/opencv_tools/lib/python3.10/site-packages'
+[19.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('opencv_tools', 'pythonpath')
+[19.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ed/ros2_ws/install/opencv_tools/share/opencv_tools/hook/pythonpath.ps1'
+[19.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ed/ros2_ws/install/opencv_tools/share/opencv_tools/hook/pythonpath.dsv'
+[19.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ed/ros2_ws/install/opencv_tools/share/opencv_tools/hook/pythonpath.sh'
+[19.317s] Level 1:colcon.colcon_core.environment:checking '/home/ed/ros2_ws/install/opencv_tools/bin'
+[19.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(opencv_tools)
+[19.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/ed/ros2_ws/install/opencv_tools/share/opencv_tools/package.ps1'
+[19.392s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ed/ros2_ws/install/opencv_tools/share/opencv_tools/package.dsv'
+[19.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/ed/ros2_ws/install/opencv_tools/share/opencv_tools/package.sh'
+[19.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/ed/ros2_ws/install/opencv_tools/share/opencv_tools/package.bash'
+[19.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/ed/ros2_ws/install/opencv_tools/share/opencv_tools/package.zsh'
+[19.402s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ed/ros2_ws/install/opencv_tools/share/colcon-core/packages/opencv_tools)
+[19.404s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.405s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.406s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.406s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.508s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.508s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.509s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.565s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.667s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ed/ros2_ws/install/local_setup.ps1'
+[19.672s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ed/ros2_ws/install/_local_setup_util_ps1.py'
+[19.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ed/ros2_ws/install/setup.ps1'
+[19.793s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ed/ros2_ws/install/local_setup.sh'
+[19.796s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ed/ros2_ws/install/_local_setup_util_sh.py'
+[19.798s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ed/ros2_ws/install/setup.sh'
+[19.875s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ed/ros2_ws/install/local_setup.bash'
+[19.877s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ed/ros2_ws/install/setup.bash'
+[19.956s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ed/ros2_ws/install/local_setup.zsh'
+[19.959s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ed/ros2_ws/install/setup.zsh'

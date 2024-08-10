@@ -1,0 +1,146 @@
+/* background {
+
+} */
+/* Link: https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy */
+
+/* THIS IS NOT WORKING FOR CSS. GO TO App.css */
+
+.gui_title {
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    font-weight: bold;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+    color: black; 
+}
+
+#gui_table, #receipt_table  {
+    table-layout: auto; 
+    width: 90%;
+    border-collapse: collapse;
+    margin: auto;
+    margin-right: auto;
+    
+}
+
+#receipt_table th {
+    background-color: #92b8ee;
+    text-align: left;
+    color:black;
+}
+
+#receipt_table th, #receipt_table td  {
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: center;
+}
+
+#gui_table th {
+    background-color: #92b8ee;
+    text-align: left;
+    color:black;
+}
+
+#gui_table th, #gui_table td  {
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: center;
+}
+
+#gui_table tr:nth-child(odd) {
+    background-color: rgb(215, 228, 250);
+}
+
+#gui_table tr:hover {
+    background-color: rgb(12, 157, 247);
+}
+
+#total  {
+    color: darkblue;
+    font-weight: bold;
+    font-size: 18px;
+    float: right;
+    margin-right: 5%;
+}
+
+#total #total_price {
+    width: auto;
+    /* border: 2px solid black; */
+    padding: 5px;
+    color: darkblue;
+}
+
+button.page_button {
+    width: auto;
+    float: right;
+    font-weight: bold;
+    background-color:rgb(58, 165, 58);
+    padding: 10px;
+    margin-left: 100%;
+    margin-right: 5%;
+}
+
+button:hover {
+    background-color: rgb(58, 165, 58);
+    color: white;
+}
+
+.receipt_title {
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    font-weight: bold;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+    color: black; 
+}
+
+.store_address {
+    font-weight: normal;
+    float: right; 
+    margin-right: 5%;
+}
+
+h3.logo {
+    float: right; 
+    padding-bottom: 10%;
+    margin-right: 5%;
+}
+
+.store_name {
+    color: black;
+    font-weight: bold;
+}
+
+.info::after {
+    float: left; 
+    content: "\a"; 
+    white-space: pre;
+    padding-bottom: 5px;
+    margin-right: 5%;
+}
+
+#box {
+    display: inline-block;
+    width: auto;
+    border: 1.5px solid black;
+    padding: 2px;
+    color: darkblue;
+}
+
+#date {
+    font-weight: bold;
+}
+
+#current_date {
+    font-weight: normal; 
+}
+
+.page_button .home_button {
+    background-color:rgb(58, 99, 165);
+}
+
+

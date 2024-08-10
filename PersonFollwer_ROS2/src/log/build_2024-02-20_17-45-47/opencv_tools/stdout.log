@@ -1,0 +1,67 @@
+running egg_info
+creating ../build/opencv_tools/opencv_tools.egg-info
+writing ../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+writing dependency_links to ../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+writing entry points to ../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+writing requirements to ../build/opencv_tools/opencv_tools.egg-info/requires.txt
+writing top-level names to ../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+writing manifest file '../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+reading manifest file '../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+writing manifest file '../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ed/ros2_ws/src/build/opencv_tools/build
+creating /home/ed/ros2_ws/src/build/opencv_tools/build/lib
+creating /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/framerate.py -> /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/webcam.py -> /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/interpreter.py -> /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/tracker.py -> /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/basic_image_subscriber.py -> /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/videostream.py -> /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/__init__.py -> /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/motor_controller.py -> /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/img_publisher_test.py -> /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/utilities.py -> /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/basic_image_publisher.py -> /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/tensor_image_publisher.py -> /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools
+running install
+running install_lib
+creating /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools/framerate.py -> /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools/webcam.py -> /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools/interpreter.py -> /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools/tracker.py -> /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools/basic_image_subscriber.py -> /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools/videostream.py -> /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools/__init__.py -> /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools/motor_controller.py -> /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools/img_publisher_test.py -> /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools/utilities.py -> /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools/basic_image_publisher.py -> /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+copying /home/ed/ros2_ws/src/build/opencv_tools/build/lib/opencv_tools/tensor_image_publisher.py -> /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools
+byte-compiling /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/framerate.py to framerate.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/webcam.py to webcam.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/interpreter.py to interpreter.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/tracker.py to tracker.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/basic_image_subscriber.py to basic_image_subscriber.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/videostream.py to videostream.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/motor_controller.py to motor_controller.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/img_publisher_test.py to img_publisher_test.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/utilities.py to utilities.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/basic_image_publisher.py to basic_image_publisher.cpython-310.pyc
+byte-compiling /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools/tensor_image_publisher.py to tensor_image_publisher.cpython-310.pyc
+running install_data
+creating /home/ed/ros2_ws/src/install/opencv_tools/share/ament_index
+creating /home/ed/ros2_ws/src/install/opencv_tools/share/ament_index/resource_index
+creating /home/ed/ros2_ws/src/install/opencv_tools/share/ament_index/resource_index/packages
+copying resource/opencv_tools -> /home/ed/ros2_ws/src/install/opencv_tools/share/ament_index/resource_index/packages
+copying package.xml -> /home/ed/ros2_ws/src/install/opencv_tools/share/opencv_tools
+running install_egg_info
+Copying ../build/opencv_tools/opencv_tools.egg-info to /home/ed/ros2_ws/src/install/opencv_tools/lib/python3.10/site-packages/opencv_tools-0.0.0-py3.10.egg-info
+running install_scripts
+Installing img_publisher script to /home/ed/ros2_ws/src/install/opencv_tools/lib/opencv_tools
+Installing img_subscriber script to /home/ed/ros2_ws/src/install/opencv_tools/lib/opencv_tools
+Installing tensor_img_publisher script to /home/ed/ros2_ws/src/install/opencv_tools/lib/opencv_tools
+writing list of installed files to '/home/ed/ros2_ws/src/build/opencv_tools/install.log'
